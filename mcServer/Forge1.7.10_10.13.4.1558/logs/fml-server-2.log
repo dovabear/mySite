@@ -1,0 +1,743 @@
+[21:48:30] [main/DEBUG] [FML/]: Injecting tracing printstreams for STDOUT/STDERR.
+[21:48:31] [main/INFO] [FML/]: Forge Mod Loader version 7.99.36.1558 for Minecraft 1.7.10 loading
+[21:48:31] [main/INFO] [FML/]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_73, running on Windows 7:amd64:6.1, installed at C:\Program Files\Java\jre1.8.0_73
+[21:48:31] [main/DEBUG] [FML/]: Java classpath at launch is X:\Mojang\mcServer\Forge1.7.10_10.13.4.1558\forge-1.7.10-10.13.4.1558-1.7.10-universal.jar
+[21:48:31] [main/DEBUG] [FML/]: Java library path at launch is C:\Program Files\Java\jre1.8.0_73\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;.
+[21:48:31] [main/DEBUG] [FML/]: Enabling runtime deobfuscation
+[21:48:31] [main/DEBUG] [FML/]: Instantiating coremod class FMLCorePlugin
+[21:48:31] [main/DEBUG] [FML/]: Added access transformer class cpw.mods.fml.common.asm.transformers.AccessTransformer to enqueued access transformers
+[21:48:31] [main/DEBUG] [FML/]: Enqueued coremod FMLCorePlugin
+[21:48:31] [main/DEBUG] [FML/]: Instantiating coremod class FMLForgePlugin
+[21:48:31] [main/DEBUG] [FML/]: Added access transformer class net.minecraftforge.transformers.ForgeAccessTransformer to enqueued access transformers
+[21:48:31] [main/DEBUG] [FML/]: Enqueued coremod FMLForgePlugin
+[21:48:31] [main/DEBUG] [FML/]: All fundamental core mods are successfully located
+[21:48:31] [main/DEBUG] [FML/]: Attempting to load commandline specified mods, relative to X:\Mojang\mcServer\Forge1.7.10_10.13.4.1558\.
+[21:48:31] [main/DEBUG] [FML/]: Discovering coremods
+[21:48:31] [main/DEBUG] [FML/]: Examining for coremod candidacy journeymap-1.7.10-5.1.3-unlimited.jar
+[21:48:31] [main/DEBUG] [FML/]: Not found coremod data in journeymap-1.7.10-5.1.3-unlimited.jar
+[21:48:31] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[21:48:31] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[21:48:31] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[21:48:31] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[21:48:31] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[21:48:31] [main/DEBUG] [FML/]: Injecting coremod FMLCorePlugin {cpw.mods.fml.relauncher.FMLCorePlugin} class transformers
+[21:48:31] [main/TRACE] [FML/]: Registering transformer cpw.mods.fml.common.asm.transformers.MarkerTransformer
+[21:48:31] [main/TRACE] [FML/]: Registering transformer cpw.mods.fml.common.asm.transformers.SideTransformer
+[21:48:31] [main/TRACE] [FML/]: Registering transformer cpw.mods.fml.common.asm.transformers.EventSubscriptionTransformer
+[21:48:31] [main/DEBUG] [FML/]: Injection complete
+[21:48:31] [main/DEBUG] [FML/]: Running coremod plugin for FMLCorePlugin {cpw.mods.fml.relauncher.FMLCorePlugin}
+[21:48:31] [main/DEBUG] [FML/]: Running coremod plugin FMLCorePlugin
+[21:48:31] [main/DEBUG] [FML/]: Read 527 binary patches
+[21:48:31] [main/INFO] [FML/]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[21:48:31] [main/DEBUG] [FML/]: Coremod plugin class FMLCorePlugin run successfully
+[21:48:31] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[21:48:31] [main/DEBUG] [FML/]: Injecting coremod FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin} class transformers
+[21:48:31] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.classloading.FluidIdTransformer
+[21:48:31] [main/DEBUG] [FML/]: Injection complete
+[21:48:31] [main/DEBUG] [FML/]: Running coremod plugin for FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin}
+[21:48:31] [main/DEBUG] [FML/]: Running coremod plugin FMLForgePlugin
+[21:48:31] [main/DEBUG] [FML/]: Coremod plugin class FMLForgePlugin run successfully
+[21:48:31] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[21:48:32] [main/DEBUG] [FML/]: Loaded 57 rules from AccessTransformer config file fml_at.cfg
+[21:48:32] [main/DEBUG] [FML/]: Loaded 89 rules from AccessTransformer config file forge_at.cfg
+[21:48:32] [main/DEBUG] [FML/]: Validating minecraft
+[21:48:32] [main/DEBUG] [FML/]: Minecraft validated, launching...
+[21:48:32] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker
+[21:48:32] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker
+[21:48:32] [main/INFO] [LaunchWrapper/]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[21:48:35] [main/WARN] [FML/]: =============================================================
+[21:48:35] [main/WARN] [FML/]: MOD HAS DIRECT REFERENCE System.exit() THIS IS NOT ALLOWED REROUTING TO FML!
+[21:48:35] [main/WARN] [FML/]: Offendor: net/minecraft/server/gui/MinecraftServerGui$1.windowClosing(Ljava/awt/event/WindowEvent;)V
+[21:48:35] [main/WARN] [FML/]: Use FMLCommonHandler.exitJava instead
+[21:48:35] [main/WARN] [FML/]: =============================================================
+[21:48:35] [Server thread/INFO] [MinecraftForge/]: Attempting early MinecraftForge initialization
+[21:48:35] [Server thread/INFO] [FML/]: MinecraftForge v10.13.4.1558 Initialized
+[21:48:35] [Server thread/INFO] [FML/]: Replaced 183 ore recipies
+[21:48:35] [Server thread/INFO] [MinecraftForge/]: Completed early MinecraftForge initialization
+[21:48:35] [Server thread/DEBUG] [FML/]: File X:\Mojang\mcServer\Forge1.7.10_10.13.4.1558\config\injectedDependencies.json not found. No dependencies injected
+[21:48:35] [Server thread/DEBUG] [FML/]: Building injected Mod Containers [cpw.mods.fml.common.FMLContainer, net.minecraftforge.common.ForgeModContainer]
+[21:48:35] [Server thread/DEBUG] [FML/]: Attempting to load mods contained in the minecraft jar file and associated classes
+[21:48:35] [Server thread/DEBUG] [FML/]: Minecraft is a file at X:\Mojang\mcServer\Forge1.7.10_10.13.4.1558\forge-1.7.10-10.13.4.1558-1.7.10-universal.jar, loading
+[21:48:35] [Server thread/DEBUG] [FML/]: Minecraft jar mods loaded successfully
+[21:48:35] [Server thread/INFO] [FML/]: Found 0 mods from the command line. Injecting into mod discoverer
+[21:48:35] [Server thread/INFO] [FML/]: Searching X:\Mojang\mcServer\Forge1.7.10_10.13.4.1558\mods for mods
+[21:48:35] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file journeymap-1.7.10-5.1.3-unlimited.jar
+[21:48:35] [Server thread/DEBUG] [FML/]: Found a candidate mod directory mcheli
+[21:48:35] [Server thread/DEBUG] [FML/]: Examining file forge-1.7.10-10.13.4.1558-1.7.10-universal.jar for potential mods
+[21:48:35] [Server thread/DEBUG] [FML/]: The mod container forge-1.7.10-10.13.4.1558-1.7.10-universal.jar appears to be missing an mcmod.info file
+[21:48:35] [Server thread/DEBUG] [FML/]: Examining file journeymap-1.7.10-5.1.3-unlimited.jar for potential mods
+[21:48:35] [Server thread/TRACE] [FML/]: Located mcmod.info file in file journeymap-1.7.10-5.1.3-unlimited.jar
+[21:48:36] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (journeymap.common.Journeymap) - loading
+[21:48:36] [Server thread/TRACE] [journeymap/]: Using mcmod dependency info : [Forge@[10.13.4.1558,)] [Forge@[10.13.4.1558,)] []
+[21:48:36] [Server thread/DEBUG] [FML/]: Examining directory mcheli for potential mods
+[21:48:36] [Server thread/DEBUG] [FML/]: Found an mcmod.info file in directory mcheli
+[21:48:36] [Server thread/TRACE] [FML/]: Recursing into package assets
+[21:48:36] [Server thread/TRACE] [FML/]: Recursing into package assets.mcheli
+[21:48:36] [Server thread/TRACE] [FML/]: Recursing into package assets.mcheli.helicopters
+[21:48:36] [Server thread/TRACE] [FML/]: Recursing into package assets.mcheli.hud
+[21:48:36] [Server thread/TRACE] [FML/]: Recursing into package assets.mcheli.lang
+[21:48:36] [Server thread/TRACE] [FML/]: Recursing into package assets.mcheli.models
+[21:48:36] [Server thread/TRACE] [FML/]: Recursing into package assets.mcheli.models.blocks
+[21:48:36] [Server thread/TRACE] [FML/]: Recursing into package assets.mcheli.models.bullets
+[21:48:36] [Server thread/TRACE] [FML/]: Recursing into package assets.mcheli.models.helicopters
+[21:48:36] [Server thread/TRACE] [FML/]: Recursing into package assets.mcheli.models.lweapons
+[21:48:36] [Server thread/TRACE] [FML/]: Recursing into package assets.mcheli.models.planes
+[21:48:36] [Server thread/TRACE] [FML/]: Recursing into package assets.mcheli.models.throwable
+[21:48:36] [Server thread/TRACE] [FML/]: Recursing into package assets.mcheli.models.vehicles
+[21:48:36] [Server thread/TRACE] [FML/]: Recursing into package assets.mcheli.planes
+[21:48:36] [Server thread/TRACE] [FML/]: Recursing into package assets.mcheli.shaders
+[21:48:36] [Server thread/TRACE] [FML/]: Recursing into package assets.mcheli.shaders.post
+[21:48:36] [Server thread/TRACE] [FML/]: Recursing into package assets.mcheli.shaders.program
+[21:48:36] [Server thread/TRACE] [FML/]: Recursing into package assets.mcheli.sound
+[21:48:36] [Server thread/TRACE] [FML/]: Recursing into package assets.mcheli.sounds
+[21:48:36] [Server thread/TRACE] [FML/]: Recursing into package assets.mcheli.textures
+[21:48:36] [Server thread/TRACE] [FML/]: Recursing into package assets.mcheli.textures.blocks
+[21:48:36] [Server thread/TRACE] [FML/]: Recursing into package assets.mcheli.textures.bullets
+[21:48:36] [Server thread/TRACE] [FML/]: Recursing into package assets.mcheli.textures.drafting_table_desc
+[21:48:36] [Server thread/TRACE] [FML/]: Recursing into package assets.mcheli.textures.gui
+[21:48:36] [Server thread/TRACE] [FML/]: Recursing into package assets.mcheli.textures.helicopters
+[21:48:36] [Server thread/TRACE] [FML/]: Recursing into package assets.mcheli.textures.items
+[21:48:36] [Server thread/TRACE] [FML/]: Recursing into package assets.mcheli.textures.lweapon
+[21:48:36] [Server thread/TRACE] [FML/]: Recursing into package assets.mcheli.textures.particles
+[21:48:36] [Server thread/TRACE] [FML/]: Recursing into package assets.mcheli.textures.planes
+[21:48:36] [Server thread/TRACE] [FML/]: Recursing into package assets.mcheli.textures.throwable
+[21:48:36] [Server thread/TRACE] [FML/]: Recursing into package assets.mcheli.textures.vehicles
+[21:48:36] [Server thread/TRACE] [FML/]: Recursing into package assets.mcheli.throwable
+[21:48:36] [Server thread/TRACE] [FML/]: Recursing into package assets.mcheli.vehicles
+[21:48:36] [Server thread/TRACE] [FML/]: Recursing into package assets.mcheli.weapons
+[21:48:36] [Server thread/TRACE] [FML/]: Recursing into package mcheli
+[21:48:36] [Server thread/TRACE] [FML/]: Recursing into package mcheli.aircraft
+[21:48:36] [Server thread/TRACE] [FML/]: Recursing into package mcheli.block
+[21:48:36] [Server thread/TRACE] [FML/]: Recursing into package mcheli.chain
+[21:48:36] [Server thread/TRACE] [FML/]: Recursing into package mcheli.command
+[21:48:36] [Server thread/TRACE] [FML/]: Recursing into package mcheli.container
+[21:48:36] [Server thread/TRACE] [FML/]: Recursing into package mcheli.debug
+[21:48:36] [Server thread/TRACE] [FML/]: Recursing into package mcheli.eval
+[21:48:36] [Server thread/TRACE] [FML/]: Recursing into package mcheli.eval.eval
+[21:48:36] [Server thread/TRACE] [FML/]: Recursing into package mcheli.eval.eval.exp
+[21:48:36] [Server thread/TRACE] [FML/]: Recursing into package mcheli.eval.eval.func
+[21:48:36] [Server thread/TRACE] [FML/]: Recursing into package mcheli.eval.eval.lex
+[21:48:36] [Server thread/TRACE] [FML/]: Recursing into package mcheli.eval.eval.oper
+[21:48:36] [Server thread/TRACE] [FML/]: Recursing into package mcheli.eval.eval.ref
+[21:48:36] [Server thread/TRACE] [FML/]: Recursing into package mcheli.eval.eval.repl
+[21:48:36] [Server thread/TRACE] [FML/]: Recursing into package mcheli.eval.eval.rule
+[21:48:36] [Server thread/TRACE] [FML/]: Recursing into package mcheli.eval.eval.srch
+[21:48:36] [Server thread/TRACE] [FML/]: Recursing into package mcheli.eval.eval.var
+[21:48:36] [Server thread/TRACE] [FML/]: Recursing into package mcheli.eval.util
+[21:48:36] [Server thread/TRACE] [FML/]: Recursing into package mcheli.flare
+[21:48:36] [Server thread/TRACE] [FML/]: Recursing into package mcheli.gltd
+[21:48:36] [Server thread/TRACE] [FML/]: Recursing into package mcheli.gui
+[21:48:36] [Server thread/TRACE] [FML/]: Recursing into package mcheli.helicopter
+[21:48:36] [Server thread/TRACE] [FML/]: Recursing into package mcheli.hud
+[21:48:36] [Server thread/TRACE] [FML/]: Recursing into package mcheli.lweapon
+[21:48:36] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (mcheli.MCH_MOD) - loading
+[21:48:36] [Server thread/TRACE] [mcheli/]: Parsed dependency info : [Forge@[10.13.2.1230,)] [Forge@[10.13.2.1230,)] []
+[21:48:36] [Server thread/DEBUG] [mcheli/]: Attempting to load the file version.properties from mcheli to locate a version number for mcheli
+[21:48:36] [Server thread/WARN] [mcheli/]: Mod mcheli is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 0.10.8
+[21:48:36] [Server thread/TRACE] [FML/]: Recursing into package mcheli.multiplay
+[21:48:36] [Server thread/TRACE] [FML/]: Recursing into package mcheli.parachute
+[21:48:36] [Server thread/TRACE] [FML/]: Recursing into package mcheli.particles
+[21:48:36] [Server thread/TRACE] [FML/]: Recursing into package mcheli.plane
+[21:48:36] [Server thread/TRACE] [FML/]: Recursing into package mcheli.throwable
+[21:48:36] [Server thread/TRACE] [FML/]: Recursing into package mcheli.tool
+[21:48:36] [Server thread/TRACE] [FML/]: Recursing into package mcheli.tool.rangefinder
+[21:48:36] [Server thread/TRACE] [FML/]: Recursing into package mcheli.uav
+[21:48:36] [Server thread/TRACE] [FML/]: Recursing into package mcheli.vehicle
+[21:48:36] [Server thread/TRACE] [FML/]: Recursing into package mcheli.weapon
+[21:48:36] [Server thread/TRACE] [FML/]: Recursing into package mcheli.wrapper
+[21:48:36] [Server thread/TRACE] [FML/]: Recursing into package mcheli.wrapper.modelloader
+[21:48:36] [Server thread/INFO] [FML/]: Forge Mod Loader has identified 5 mods to load
+[21:48:36] [Server thread/TRACE] [FML/]: Received a system property request ''
+[21:48:36] [Server thread/TRACE] [FML/]: System property request managing the state of 0 mods
+[21:48:36] [Server thread/DEBUG] [FML/]: After merging, found state information for 0 mods
+[21:48:36] [Server thread/DEBUG] [FML/]: Found translations in forge-1.7.10-10.13.4.1558-1.7.10-universal.jar [en_US, en_US, es_ES, fr_FR, ru_RU, de_DE, af_ZA, ar_SA, br_FR, ca_ES, cs_CZ, da_DK, el_GR, fa_IR, fi_FI, he_IL, hu_HU, it_IT, ja_JP, ko_KR, lt_LT, nb_NO, nl_NL, nn_NO, no_NO, pl_PL, pt_BR, pt_PT, ro_RO, sl_SI, sr_SP, sv_SE, tr_TR, uk_UA, vi_VN, zh_CN, zh_TW]
+[21:48:36] [Server thread/DEBUG] [FML/]: Found translations in forge-1.7.10-10.13.4.1558-1.7.10-universal.jar [en_US, en_US, es_ES, fr_FR, ru_RU, de_DE, af_ZA, ar_SA, br_FR, ca_ES, cs_CZ, da_DK, el_GR, fa_IR, fi_FI, he_IL, hu_HU, it_IT, ja_JP, ko_KR, lt_LT, nb_NO, nl_NL, nn_NO, no_NO, pl_PL, pt_BR, pt_PT, ro_RO, sl_SI, sr_SP, sv_SE, tr_TR, uk_UA, vi_VN, zh_CN, zh_TW]
+[21:48:36] [Server thread/DEBUG] [journeymap/]: Enabling mod journeymap
+[21:48:36] [Server thread/DEBUG] [FML/]: Found translations in journeymap-1.7.10-5.1.3-unlimited.jar [ar_SA, ca_ES, de_DE, en_US, es_ES, fi_FI, fr_CA, fr_FR, hu_HU, ja_JP, ko_KR, nl_NL, no_NO, pt_BR, ru_RU, sv_SE, zh_CN]
+[21:48:36] [Server thread/DEBUG] [mcheli/]: Enabling mod mcheli
+[21:48:36] [Server thread/DEBUG] [FML/]: Injecting found translation assets for lang en_US at assets/mcheli/lang/en_US.lang into language system
+[21:48:36] [Server thread/DEBUG] [FML/]: Injecting found translation assets for lang ja_JP at assets/mcheli/lang/ja_JP.lang into language system
+[21:48:36] [Server thread/DEBUG] [FML/]: Injecting found translation assets for lang zh_CN at assets/mcheli/lang/zh_CN.lang into language system
+[21:48:36] [Server thread/TRACE] [FML/]: Verifying mod requirements are satisfied
+[21:48:36] [Server thread/TRACE] [FML/]: All mod requirements are satisfied
+[21:48:36] [Server thread/TRACE] [FML/]: Sorting mods into an ordered list
+[21:48:36] [Server thread/TRACE] [FML/]: Mod sorting completed successfully
+[21:48:36] [Server thread/DEBUG] [FML/]: Mod sorting data
+[21:48:36] [Server thread/DEBUG] [FML/]: 	journeymap(JourneyMap:5.1.3): journeymap-1.7.10-5.1.3-unlimited.jar ()
+[21:48:36] [Server thread/DEBUG] [FML/]: 	mcheli(MC Helicopter:0.10.8): mcheli (required-after:Forge@[10.13.2.1230,))
+[21:48:36] [Server thread/TRACE] [mcp/mcp]: Sending event FMLConstructionEvent to mod mcp
+[21:48:36] [Server thread/TRACE] [mcp/mcp]: Sent event FMLConstructionEvent to mod mcp
+[21:48:36] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Minecraft Coder Pack took 0.001s
+[21:48:36] [Server thread/TRACE] [FML/FML]: Sending event FMLConstructionEvent to mod FML
+[21:48:36] [Server thread/TRACE] [FML/FML]: Mod FML is using network checker : Invoking method checkModLists
+[21:48:36] [Server thread/TRACE] [FML/FML]: Testing mod FML to verify it accepts its own version in a remote connection
+[21:48:36] [Server thread/TRACE] [FML/FML]: The mod FML accepts its own version (7.10.99.99)
+[21:48:36] [Server thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge, journeymap, mcheli] at CLIENT
+[21:48:36] [Server thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge, journeymap, mcheli] at SERVER
+[21:48:36] [Server thread/TRACE] [FML/FML]: Sent event FMLConstructionEvent to mod FML
+[21:48:36] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Forge Mod Loader took 0.252s
+[21:48:36] [Server thread/TRACE] [Forge/Forge]: Sending event FMLConstructionEvent to mod Forge
+[21:48:36] [Server thread/TRACE] [FML/Forge]: Mod Forge is using network checker : No network checking performed
+[21:48:36] [Server thread/TRACE] [FML/Forge]: Testing mod Forge to verify it accepts its own version in a remote connection
+[21:48:36] [Server thread/TRACE] [FML/Forge]: The mod Forge accepts its own version (10.13.4.1558)
+[21:48:36] [Server thread/TRACE] [Forge/Forge]: Sent event FMLConstructionEvent to mod Forge
+[21:48:36] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Minecraft Forge took 0.009s
+[21:48:36] [Server thread/TRACE] [journeymap/journeymap]: Sending event FMLConstructionEvent to mod journeymap
+[21:48:36] [Server thread/TRACE] [FML/journeymap]: Mod journeymap is using network checker : Invoking method checkModLists
+[21:48:36] [Server thread/TRACE] [FML/journeymap]: Testing mod journeymap to verify it accepts its own version in a remote connection
+[21:48:36] [Server thread/TRACE] [FML/journeymap]: The mod journeymap accepts its own version (5.1.3)
+[21:48:36] [Server thread/DEBUG] [FML/journeymap]: Attempting to inject @SidedProxy classes into journeymap
+[21:48:36] [Server thread/TRACE] [journeymap/journeymap]: Sent event FMLConstructionEvent to mod journeymap
+[21:48:36] [Server thread/DEBUG] [FML/]: Bar Step: Construction - JourneyMap took 0.025s
+[21:48:36] [Server thread/TRACE] [mcheli/mcheli]: Sending event FMLConstructionEvent to mod mcheli
+[21:48:37] [Server thread/TRACE] [FML/mcheli]: Mod mcheli is using network checker : Accepting version 0.10.8
+[21:48:37] [Server thread/TRACE] [FML/mcheli]: Testing mod mcheli to verify it accepts its own version in a remote connection
+[21:48:37] [Server thread/TRACE] [FML/mcheli]: The mod mcheli accepts its own version (0.10.8)
+[21:48:37] [Server thread/DEBUG] [FML/mcheli]: Attempting to inject @SidedProxy classes into mcheli
+[21:48:37] [Server thread/TRACE] [mcheli/mcheli]: Sent event FMLConstructionEvent to mod mcheli
+[21:48:37] [Server thread/DEBUG] [FML/]: Bar Step: Construction - MC Helicopter took 0.291s
+[21:48:37] [Server thread/DEBUG] [FML/]: Bar Finished: Construction took 0.579s
+[21:48:37] [Server thread/DEBUG] [FML/]: Mod signature data
+[21:48:37] [Server thread/DEBUG] [FML/]:  	Valid Signatures:
+[21:48:37] [Server thread/DEBUG] [FML/]: 		(e3c3d50c7c986df74c645c0ac54639741c90a557) FML	(Forge Mod Loader	7.10.99.99)	forge-1.7.10-10.13.4.1558-1.7.10-universal.jar
+[21:48:37] [Server thread/DEBUG] [FML/]: 		(e3c3d50c7c986df74c645c0ac54639741c90a557) Forge	(Minecraft Forge	10.13.4.1558)	forge-1.7.10-10.13.4.1558-1.7.10-universal.jar
+[21:48:37] [Server thread/DEBUG] [FML/]:  	Missing Signatures:
+[21:48:37] [Server thread/DEBUG] [FML/]: 		mcp	(Minecraft Coder Pack	9.05)	minecraft.jar
+[21:48:37] [Server thread/DEBUG] [FML/]: 		journeymap	(JourneyMap	5.1.3)	journeymap-1.7.10-5.1.3-unlimited.jar
+[21:48:37] [Server thread/DEBUG] [FML/]: 		mcheli	(MC Helicopter	0.10.8)	mcheli
+[21:48:37] [Server thread/INFO] [FML/]: Processing ObjectHolder annotations
+[21:48:37] [Server thread/INFO] [FML/]: Found 341 ObjectHolder annotations
+[21:48:37] [Server thread/INFO] [FML/]: Identifying ItemStackHolder annotations
+[21:48:37] [Server thread/INFO] [FML/]: Found 0 ItemStackHolder annotations
+[21:48:37] [Server thread/TRACE] [mcp/mcp]: Sending event FMLPreInitializationEvent to mod mcp
+[21:48:37] [Server thread/TRACE] [mcp/mcp]: Sent event FMLPreInitializationEvent to mod mcp
+[21:48:37] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Minecraft Coder Pack took 0.001s
+[21:48:37] [Server thread/TRACE] [FML/FML]: Sending event FMLPreInitializationEvent to mod FML
+[21:48:37] [Server thread/TRACE] [FML/FML]: Sent event FMLPreInitializationEvent to mod FML
+[21:48:37] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Forge Mod Loader took 0.000s
+[21:48:37] [Server thread/TRACE] [Forge/Forge]: Sending event FMLPreInitializationEvent to mod Forge
+[21:48:37] [Server thread/INFO] [FML/Forge]: Configured a dormant chunk cache size of 0
+[21:48:37] [Server thread/TRACE] [Forge/Forge]: Sent event FMLPreInitializationEvent to mod Forge
+[21:48:37] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Minecraft Forge took 0.036s
+[21:48:37] [Server thread/TRACE] [journeymap/journeymap]: Sending event FMLPreInitializationEvent to mod journeymap
+[21:48:37] [Server thread/TRACE] [journeymap/journeymap]: Sent event FMLPreInitializationEvent to mod journeymap
+[21:48:37] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - JourneyMap took 0.004s
+[21:48:37] [Server thread/TRACE] [mcheli/mcheli]: Sending event FMLPreInitializationEvent to mod mcheli
+[21:48:37] [Server thread/TRACE] [FML/mcheli]: Automatically registered mod mcheli entity MCH.E.Seat as mcheli.MCH.E.Seat
+[21:48:37] [Server thread/TRACE] [FML/mcheli]: Automatically registered mod mcheli entity MCH.E.Heli as mcheli.MCH.E.Heli
+[21:48:37] [Server thread/TRACE] [FML/mcheli]: Automatically registered mod mcheli entity MCH.E.GLTD as mcheli.MCH.E.GLTD
+[21:48:37] [Server thread/TRACE] [FML/mcheli]: Automatically registered mod mcheli entity MCH.E.Plane as mcheli.MCH.E.Plane
+[21:48:37] [Server thread/TRACE] [FML/mcheli]: Automatically registered mod mcheli entity MCH.E.Chain as mcheli.MCH.E.Chain
+[21:48:37] [Server thread/TRACE] [FML/mcheli]: Automatically registered mod mcheli entity MCH.E.PSeat as mcheli.MCH.E.PSeat
+[21:48:37] [Server thread/TRACE] [FML/mcheli]: Automatically registered mod mcheli entity MCH.E.Parachute as mcheli.MCH.E.Parachute
+[21:48:37] [Server thread/TRACE] [FML/mcheli]: Automatically registered mod mcheli entity MCH.E.Container as mcheli.MCH.E.Container
+[21:48:37] [Server thread/TRACE] [FML/mcheli]: Automatically registered mod mcheli entity MCH.E.Vehicle as mcheli.MCH.E.Vehicle
+[21:48:37] [Server thread/TRACE] [FML/mcheli]: Automatically registered mod mcheli entity MCH.E.UavStation as mcheli.MCH.E.UavStation
+[21:48:37] [Server thread/DEBUG] [FML/mcheli]: Skipping automatic mod mcheli entity registration for already registered class mcheli.aircraft.MCH_EntityHitBox
+[21:48:37] [Server thread/TRACE] [FML/mcheli]: Automatically registered mod mcheli entity MCH.E.Hide as mcheli.MCH.E.Hide
+[21:48:37] [Server thread/TRACE] [FML/mcheli]: Automatically registered mod mcheli entity MCH.E.Rocket as mcheli.MCH.E.Rocket
+[21:48:37] [Server thread/TRACE] [FML/mcheli]: Automatically registered mod mcheli entity MCH.E.TvMissle as mcheli.MCH.E.TvMissle
+[21:48:37] [Server thread/TRACE] [FML/mcheli]: Automatically registered mod mcheli entity MCH.E.Bullet as mcheli.MCH.E.Bullet
+[21:48:37] [Server thread/TRACE] [FML/mcheli]: Automatically registered mod mcheli entity MCH.E.A10 as mcheli.MCH.E.A10
+[21:48:37] [Server thread/TRACE] [FML/mcheli]: Automatically registered mod mcheli entity MCH.E.AAM as mcheli.MCH.E.AAM
+[21:48:37] [Server thread/TRACE] [FML/mcheli]: Automatically registered mod mcheli entity MCH.E.ASM as mcheli.MCH.E.ASM
+[21:48:37] [Server thread/TRACE] [FML/mcheli]: Automatically registered mod mcheli entity MCH.E.Torpedo as mcheli.MCH.E.Torpedo
+[21:48:37] [Server thread/TRACE] [FML/mcheli]: Automatically registered mod mcheli entity MCH.E.ATMissle as mcheli.MCH.E.ATMissle
+[21:48:37] [Server thread/TRACE] [FML/mcheli]: Automatically registered mod mcheli entity MCH.E.Bomb as mcheli.MCH.E.Bomb
+[21:48:37] [Server thread/TRACE] [FML/mcheli]: Automatically registered mod mcheli entity MCH.E.MkRocket as mcheli.MCH.E.MkRocket
+[21:48:37] [Server thread/TRACE] [FML/mcheli]: Automatically registered mod mcheli entity MCH.E.DispItem as mcheli.MCH.E.DispItem
+[21:48:37] [Server thread/TRACE] [FML/mcheli]: Automatically registered mod mcheli entity MCH.E.Flare as mcheli.MCH.E.Flare
+[21:48:37] [Server thread/TRACE] [FML/mcheli]: Automatically registered mod mcheli entity MCH.E.Throwable as mcheli.MCH.E.Throwable
+[21:48:37] [Server thread/TRACE] [mcheli/mcheli]: Sent event FMLPreInitializationEvent to mod mcheli
+[21:48:37] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - MC Helicopter took 0.581s
+[21:48:37] [Server thread/DEBUG] [FML/]: Bar Finished: PreInitialization took 0.621s
+[21:48:37] [Server thread/INFO] [FML/]: Applying holder lookups
+[21:48:37] [Server thread/INFO] [FML/]: Holder lookups applied
+[21:48:37] [Server thread/INFO] [FML/]: Injecting itemstacks
+[21:48:37] [Server thread/INFO] [FML/]: Itemstack injection complete
+[21:48:38] [Server thread/TRACE] [mcp/mcp]: Sending event FMLInitializationEvent to mod mcp
+[21:48:38] [Server thread/TRACE] [mcp/mcp]: Sent event FMLInitializationEvent to mod mcp
+[21:48:38] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - Minecraft Coder Pack took 0.000s
+[21:48:38] [Server thread/TRACE] [FML/FML]: Sending event FMLInitializationEvent to mod FML
+[21:48:38] [Server thread/TRACE] [FML/FML]: Sent event FMLInitializationEvent to mod FML
+[21:48:38] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - Forge Mod Loader took 0.000s
+[21:48:38] [Server thread/TRACE] [Forge/Forge]: Sending event FMLInitializationEvent to mod Forge
+[21:48:38] [Server thread/TRACE] [Forge/Forge]: Sent event FMLInitializationEvent to mod Forge
+[21:48:38] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - Minecraft Forge took 0.000s
+[21:48:38] [Server thread/TRACE] [journeymap/journeymap]: Sending event FMLInitializationEvent to mod journeymap
+[21:48:38] [Server thread/TRACE] [journeymap/journeymap]: Sent event FMLInitializationEvent to mod journeymap
+[21:48:38] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - JourneyMap took 0.011s
+[21:48:38] [Server thread/TRACE] [mcheli/mcheli]: Sending event FMLInitializationEvent to mod mcheli
+[21:48:38] [Server thread/TRACE] [mcheli/mcheli]: Sent event FMLInitializationEvent to mod mcheli
+[21:48:38] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - MC Helicopter took 0.001s
+[21:48:38] [Server thread/DEBUG] [FML/]: Bar Finished: Initialization took 0.014s
+[21:48:38] [Server thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod mcp
+[21:48:38] [Server thread/TRACE] [mcp/mcp]: Sending event IMCEvent to mod mcp
+[21:48:38] [Server thread/TRACE] [mcp/mcp]: Sent event IMCEvent to mod mcp
+[21:48:38] [Server thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Minecraft Coder Pack took 0.005s
+[21:48:38] [Server thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod FML
+[21:48:38] [Server thread/TRACE] [FML/FML]: Sending event IMCEvent to mod FML
+[21:48:38] [Server thread/TRACE] [FML/FML]: Sent event IMCEvent to mod FML
+[21:48:38] [Server thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Forge Mod Loader took 0.000s
+[21:48:38] [Server thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod Forge
+[21:48:38] [Server thread/TRACE] [Forge/Forge]: Sending event IMCEvent to mod Forge
+[21:48:38] [Server thread/TRACE] [Forge/Forge]: Sent event IMCEvent to mod Forge
+[21:48:38] [Server thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Minecraft Forge took 0.000s
+[21:48:38] [Server thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod journeymap
+[21:48:38] [Server thread/TRACE] [journeymap/journeymap]: Sending event IMCEvent to mod journeymap
+[21:48:38] [Server thread/TRACE] [journeymap/journeymap]: Sent event IMCEvent to mod journeymap
+[21:48:38] [Server thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - JourneyMap took 0.000s
+[21:48:38] [Server thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod mcheli
+[21:48:38] [Server thread/TRACE] [mcheli/mcheli]: Sending event IMCEvent to mod mcheli
+[21:48:38] [Server thread/TRACE] [mcheli/mcheli]: Sent event IMCEvent to mod mcheli
+[21:48:38] [Server thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - MC Helicopter took 0.000s
+[21:48:38] [Server thread/DEBUG] [FML/]: Bar Finished: InterModComms$IMC took 0.006s
+[21:48:38] [Server thread/INFO] [FML/]: Injecting itemstacks
+[21:48:38] [Server thread/INFO] [FML/]: Itemstack injection complete
+[21:48:38] [Server thread/TRACE] [mcp/mcp]: Sending event FMLPostInitializationEvent to mod mcp
+[21:48:38] [Server thread/TRACE] [mcp/mcp]: Sent event FMLPostInitializationEvent to mod mcp
+[21:48:38] [Server thread/DEBUG] [FML/]: Bar Step: PostInitialization - Minecraft Coder Pack took 0.000s
+[21:48:38] [Server thread/TRACE] [FML/FML]: Sending event FMLPostInitializationEvent to mod FML
+[21:48:38] [Server thread/TRACE] [FML/FML]: Sent event FMLPostInitializationEvent to mod FML
+[21:48:38] [Server thread/DEBUG] [FML/]: Bar Step: PostInitialization - Forge Mod Loader took 0.000s
+[21:48:38] [Server thread/TRACE] [Forge/Forge]: Sending event FMLPostInitializationEvent to mod Forge
+[21:48:38] [Server thread/TRACE] [Forge/Forge]: Sent event FMLPostInitializationEvent to mod Forge
+[21:48:38] [Server thread/DEBUG] [FML/]: Bar Step: PostInitialization - Minecraft Forge took 0.092s
+[21:48:38] [Server thread/TRACE] [journeymap/journeymap]: Sending event FMLPostInitializationEvent to mod journeymap
+[21:48:38] [Server thread/TRACE] [journeymap/journeymap]: Sent event FMLPostInitializationEvent to mod journeymap
+[21:48:38] [Server thread/DEBUG] [FML/]: Bar Step: PostInitialization - JourneyMap took 0.000s
+[21:48:38] [Server thread/TRACE] [mcheli/mcheli]: Sending event FMLPostInitializationEvent to mod mcheli
+[21:48:38] [Server thread/TRACE] [mcheli/mcheli]: Sent event FMLPostInitializationEvent to mod mcheli
+[21:48:38] [Server thread/DEBUG] [FML/]: Bar Step: PostInitialization - MC Helicopter took 0.009s
+[21:48:38] [Server thread/DEBUG] [FML/]: Bar Finished: PostInitialization took 0.102s
+[21:48:38] [Server thread/TRACE] [mcp/mcp]: Sending event FMLLoadCompleteEvent to mod mcp
+[21:48:38] [Server thread/TRACE] [mcp/mcp]: Sent event FMLLoadCompleteEvent to mod mcp
+[21:48:38] [Server thread/DEBUG] [FML/]: Bar Step: LoadComplete - Minecraft Coder Pack took 0.000s
+[21:48:38] [Server thread/TRACE] [FML/FML]: Sending event FMLLoadCompleteEvent to mod FML
+[21:48:38] [Server thread/TRACE] [FML/FML]: Sent event FMLLoadCompleteEvent to mod FML
+[21:48:38] [Server thread/DEBUG] [FML/]: Bar Step: LoadComplete - Forge Mod Loader took 0.000s
+[21:48:38] [Server thread/TRACE] [Forge/Forge]: Sending event FMLLoadCompleteEvent to mod Forge
+[21:48:38] [Server thread/DEBUG] [FML/Forge]: Forge RecipeSorter Baking:
+[21:48:38] [Server thread/DEBUG] [FML/Forge]:   11: RecipeEntry("Before", UNKNOWN, )
+[21:48:38] [Server thread/DEBUG] [FML/Forge]:   10: RecipeEntry("minecraft:shaped", SHAPED, net.minecraft.item.crafting.ShapedRecipes) Before: minecraft:shapeless
+[21:48:38] [Server thread/DEBUG] [FML/Forge]:   9: RecipeEntry("forge:shapedore", SHAPED, net.minecraftforge.oredict.ShapedOreRecipe) Before: minecraft:shapeless After: minecraft:shaped
+[21:48:38] [Server thread/DEBUG] [FML/Forge]:   8: RecipeEntry("minecraft:mapextending", SHAPED, net.minecraft.item.crafting.RecipesMapExtending) Before: minecraft:shapeless After: minecraft:shaped
+[21:48:38] [Server thread/DEBUG] [FML/Forge]:   7: RecipeEntry("minecraft:shapeless", SHAPELESS, net.minecraft.item.crafting.ShapelessRecipes) After: minecraft:shaped
+[21:48:38] [Server thread/DEBUG] [FML/Forge]:   6: RecipeEntry("forge:shapelessore", SHAPELESS, net.minecraftforge.oredict.ShapelessOreRecipe) After: minecraft:shapeless
+[21:48:38] [Server thread/DEBUG] [FML/Forge]:   5: RecipeEntry("minecraft:armordyes", SHAPELESS, net.minecraft.item.crafting.RecipesArmorDyes) After: minecraft:shapeless
+[21:48:38] [Server thread/DEBUG] [FML/Forge]:   4: RecipeEntry("minecraft:fireworks", SHAPELESS, net.minecraft.item.crafting.RecipeFireworks) After: minecraft:shapeless
+[21:48:38] [Server thread/DEBUG] [FML/Forge]:   3: RecipeEntry("minecraft:bookcloning", SHAPELESS, net.minecraft.item.crafting.RecipeBookCloning) After: minecraft:shapeless
+[21:48:38] [Server thread/DEBUG] [FML/Forge]:   2: RecipeEntry("minecraft:mapcloning", SHAPELESS, net.minecraft.item.crafting.RecipesMapCloning) After: minecraft:shapeless
+[21:48:38] [Server thread/DEBUG] [FML/Forge]:   1: RecipeEntry("After", UNKNOWN, )
+[21:48:38] [Server thread/DEBUG] [FML/Forge]: Sorting recipies
+[21:48:38] [Server thread/INFO] [FML/Forge]:   Unknown recipe class! mcheli.MCH_RecipeFuel Modder please refer to net.minecraftforge.oredict.RecipeSorter
+[21:48:38] [Server thread/INFO] [FML/Forge]:   Unknown recipe class! mcheli.MCH_RecipeReloadRangeFinder Modder please refer to net.minecraftforge.oredict.RecipeSorter
+[21:48:38] [Server thread/TRACE] [Forge/Forge]: Sent event FMLLoadCompleteEvent to mod Forge
+[21:48:38] [Server thread/DEBUG] [FML/]: Bar Step: LoadComplete - Minecraft Forge took 0.010s
+[21:48:38] [Server thread/TRACE] [journeymap/journeymap]: Sending event FMLLoadCompleteEvent to mod journeymap
+[21:48:38] [Server thread/TRACE] [journeymap/journeymap]: Sent event FMLLoadCompleteEvent to mod journeymap
+[21:48:38] [Server thread/DEBUG] [FML/]: Bar Step: LoadComplete - JourneyMap took 0.000s
+[21:48:38] [Server thread/TRACE] [mcheli/mcheli]: Sending event FMLLoadCompleteEvent to mod mcheli
+[21:48:38] [Server thread/TRACE] [mcheli/mcheli]: Sent event FMLLoadCompleteEvent to mod mcheli
+[21:48:38] [Server thread/DEBUG] [FML/]: Bar Step: LoadComplete - MC Helicopter took 0.000s
+[21:48:38] [Server thread/DEBUG] [FML/]: Bar Finished: LoadComplete took 0.011s
+[21:48:38] [Server thread/DEBUG] [FML/]: Freezing block and item id maps
+[21:48:38] [Server thread/DEBUG] [FML/]: Registry consistency check successful
+[21:48:38] [Server thread/DEBUG] [FML/]: Registry consistency check successful
+[21:48:38] [Server thread/INFO] [FML/]: Forge Mod Loader has successfully loaded 5 mods
+[21:48:38] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerAboutToStartEvent to mod mcp
+[21:48:38] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerAboutToStartEvent to mod mcp
+[21:48:38] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - Minecraft Coder Pack took 0.000s
+[21:48:38] [Server thread/TRACE] [FML/FML]: Sending event FMLServerAboutToStartEvent to mod FML
+[21:48:38] [Server thread/TRACE] [FML/FML]: Sent event FMLServerAboutToStartEvent to mod FML
+[21:48:38] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - Forge Mod Loader took 0.000s
+[21:48:38] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerAboutToStartEvent to mod Forge
+[21:48:38] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerAboutToStartEvent to mod Forge
+[21:48:38] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - Minecraft Forge took 0.000s
+[21:48:38] [Server thread/TRACE] [journeymap/journeymap]: Sending event FMLServerAboutToStartEvent to mod journeymap
+[21:48:38] [Server thread/TRACE] [journeymap/journeymap]: Sent event FMLServerAboutToStartEvent to mod journeymap
+[21:48:38] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - JourneyMap took 0.000s
+[21:48:38] [Server thread/TRACE] [mcheli/mcheli]: Sending event FMLServerAboutToStartEvent to mod mcheli
+[21:48:38] [Server thread/TRACE] [mcheli/mcheli]: Sent event FMLServerAboutToStartEvent to mod mcheli
+[21:48:38] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - MC Helicopter took 0.001s
+[21:48:38] [Server thread/DEBUG] [FML/]: Bar Finished: ServerAboutToStart took 0.002s
+[21:48:39] [Server thread/INFO] [FML/]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@1f88296c)
+[21:48:39] [Server thread/INFO] [FML/]: Loading dimension 1 (world) (net.minecraft.server.dedicated.DedicatedServer@1f88296c)
+[21:48:39] [Server thread/INFO] [FML/]: Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@1f88296c)
+[21:48:47] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStartingEvent to mod mcp
+[21:48:47] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStartingEvent to mod mcp
+[21:48:47] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - Minecraft Coder Pack took 0.000s
+[21:48:47] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStartingEvent to mod FML
+[21:48:47] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStartingEvent to mod FML
+[21:48:47] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - Forge Mod Loader took 0.000s
+[21:48:47] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerStartingEvent to mod Forge
+[21:48:47] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerStartingEvent to mod Forge
+[21:48:47] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - Minecraft Forge took 0.003s
+[21:48:47] [Server thread/TRACE] [journeymap/journeymap]: Sending event FMLServerStartingEvent to mod journeymap
+[21:48:47] [Server thread/TRACE] [journeymap/journeymap]: Sent event FMLServerStartingEvent to mod journeymap
+[21:48:47] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - JourneyMap took 0.003s
+[21:48:47] [Server thread/TRACE] [mcheli/mcheli]: Sending event FMLServerStartingEvent to mod mcheli
+[21:48:47] [Server thread/TRACE] [mcheli/mcheli]: Sent event FMLServerStartingEvent to mod mcheli
+[21:48:47] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - MC Helicopter took 0.000s
+[21:48:47] [Server thread/DEBUG] [FML/]: Bar Finished: ServerStarting took 0.007s
+[21:48:47] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStartedEvent to mod mcp
+[21:48:47] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStartedEvent to mod mcp
+[21:48:47] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - Minecraft Coder Pack took 0.000s
+[21:48:47] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStartedEvent to mod FML
+[21:48:47] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStartedEvent to mod FML
+[21:48:47] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - Forge Mod Loader took 0.000s
+[21:48:47] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerStartedEvent to mod Forge
+[21:48:47] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerStartedEvent to mod Forge
+[21:48:47] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - Minecraft Forge took 0.000s
+[21:48:47] [Server thread/TRACE] [journeymap/journeymap]: Sending event FMLServerStartedEvent to mod journeymap
+[21:48:47] [Server thread/INFO] [journeymap/journeymap]: World ID: 2e1687ed-e475-4284-9a30-4e8d45840689
+[21:48:47] [Server thread/TRACE] [journeymap/journeymap]: Sent event FMLServerStartedEvent to mod journeymap
+[21:48:47] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - JourneyMap took 0.006s
+[21:48:47] [Server thread/TRACE] [mcheli/mcheli]: Sending event FMLServerStartedEvent to mod mcheli
+[21:48:47] [Server thread/TRACE] [mcheli/mcheli]: Sent event FMLServerStartedEvent to mod mcheli
+[21:48:47] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - MC Helicopter took 0.002s
+[21:48:47] [Server thread/DEBUG] [FML/]: Bar Finished: ServerStarted took 0.009s
+[21:49:11] [Netty IO #4/TRACE] [FML/]: $ClientHello->FMLHandshakeServerState$2:HELLO
+[21:49:11] [Netty IO #4/INFO] [FML/]: Client protocol version 2
+[21:49:11] [Netty IO #4/TRACE] [FML/]: $ModList:5 mods->FMLHandshakeServerState$2:HELLO
+[21:49:11] [Netty IO #4/INFO] [FML/]: Client attempting to join with 5 mods : FML@7.10.99.99,mcheli@0.10.8,Forge@10.13.4.1558,mcp@9.05,journeymap@5.1.3
+[21:49:11] [Netty IO #4/INFO] [journeymap/]: CLIENT
+[21:49:11] [Netty IO #4/INFO] [FML/]: Attempting connection with missing mods [] at CLIENT
+[21:49:11] [Netty IO #4/TRACE] [FML/]: $HandshakeAck:{2}->FMLHandshakeServerState$3:WAITINGCACK
+[21:49:11] [Netty IO #4/TRACE] [FML/]: $HandshakeAck:{3}->FMLHandshakeServerState$4:COMPLETE
+[21:49:11] [Netty IO #4/TRACE] [FML/]: $HandshakeAck:{4}->FMLHandshakeServerState$5:DONE
+[21:49:11] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
+[21:49:11] [Netty IO #4/TRACE] [FML/]: $HandshakeAck:{5}->FMLHandshakeServerState$5:DONE
+[21:49:32] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[21:50:17] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[21:51:02] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[21:51:47] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[21:52:32] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[21:53:17] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[21:53:56] [Netty IO #6/TRACE] [FML/]: $ClientHello->FMLHandshakeServerState$2:HELLO
+[21:53:56] [Netty IO #6/INFO] [FML/]: Client protocol version 2
+[21:53:56] [Netty IO #6/TRACE] [FML/]: $ModList:4 mods->FMLHandshakeServerState$2:HELLO
+[21:53:56] [Netty IO #6/INFO] [FML/]: Client attempting to join with 4 mods : FML@7.10.99.99,mcheli@0.10.8,Forge@10.13.4.1558,mcp@9.05
+[21:53:56] [Netty IO #6/INFO] [journeymap/]: CLIENT
+[21:53:56] [Netty IO #6/INFO] [FML/]: Attempting connection with missing mods [journeymap] at CLIENT
+[21:53:56] [Netty IO #6/TRACE] [FML/]: $HandshakeAck:{2}->FMLHandshakeServerState$3:WAITINGCACK
+[21:53:56] [Netty IO #6/TRACE] [FML/]: $HandshakeAck:{3}->FMLHandshakeServerState$4:COMPLETE
+[21:53:56] [Netty IO #6/TRACE] [FML/]: $HandshakeAck:{4}->FMLHandshakeServerState$5:DONE
+[21:53:56] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
+[21:53:56] [Netty IO #6/TRACE] [FML/]: $HandshakeAck:{5}->FMLHandshakeServerState$5:DONE
+[21:54:02] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[21:54:47] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[21:54:52] [Netty IO #7/TRACE] [FML/]: $ClientHello->FMLHandshakeServerState$2:HELLO
+[21:54:52] [Netty IO #7/INFO] [FML/]: Client protocol version 2
+[21:54:52] [Netty IO #7/TRACE] [FML/]: $ModList:5 mods->FMLHandshakeServerState$2:HELLO
+[21:54:52] [Netty IO #7/INFO] [FML/]: Client attempting to join with 5 mods : FML@7.10.99.99,mcheli@0.10.8,Forge@10.13.4.1558,mcp@9.05,journeymap@5.1.3
+[21:54:52] [Netty IO #7/INFO] [journeymap/]: CLIENT
+[21:54:52] [Netty IO #7/INFO] [FML/]: Attempting connection with missing mods [] at CLIENT
+[21:54:52] [Netty IO #7/TRACE] [FML/]: $HandshakeAck:{2}->FMLHandshakeServerState$3:WAITINGCACK
+[21:54:52] [Netty IO #7/TRACE] [FML/]: $HandshakeAck:{3}->FMLHandshakeServerState$4:COMPLETE
+[21:54:52] [Netty IO #7/TRACE] [FML/]: $HandshakeAck:{4}->FMLHandshakeServerState$5:DONE
+[21:54:52] [Netty IO #7/TRACE] [FML/]: $HandshakeAck:{5}->FMLHandshakeServerState$5:DONE
+[21:54:52] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
+[21:55:01] [Netty IO #10/TRACE] [FML/]: $ClientHello->FMLHandshakeServerState$2:HELLO
+[21:55:01] [Netty IO #10/INFO] [FML/]: Client protocol version 2
+[21:55:01] [Netty IO #10/TRACE] [FML/]: $ModList:5 mods->FMLHandshakeServerState$2:HELLO
+[21:55:01] [Netty IO #10/INFO] [FML/]: Client attempting to join with 5 mods : FML@7.10.99.99,mcheli@0.10.8,Forge@10.13.4.1558,mcp@9.05,journeymap@5.1.3
+[21:55:01] [Netty IO #10/INFO] [journeymap/]: CLIENT
+[21:55:01] [Netty IO #10/INFO] [FML/]: Attempting connection with missing mods [] at CLIENT
+[21:55:01] [Netty IO #10/TRACE] [FML/]: $HandshakeAck:{2}->FMLHandshakeServerState$3:WAITINGCACK
+[21:55:01] [Netty IO #10/TRACE] [FML/]: $HandshakeAck:{3}->FMLHandshakeServerState$4:COMPLETE
+[21:55:01] [Netty IO #10/TRACE] [FML/]: $HandshakeAck:{4}->FMLHandshakeServerState$5:DONE
+[21:55:01] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
+[21:55:01] [Netty IO #10/TRACE] [FML/]: $HandshakeAck:{5}->FMLHandshakeServerState$5:DONE
+[21:55:32] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[21:55:34] [Netty IO #11/TRACE] [FML/]: $ClientHello->FMLHandshakeServerState$2:HELLO
+[21:55:34] [Netty IO #11/INFO] [FML/]: Client protocol version 2
+[21:55:34] [Netty IO #11/TRACE] [FML/]: $ModList:5 mods->FMLHandshakeServerState$2:HELLO
+[21:55:34] [Netty IO #11/INFO] [FML/]: Client attempting to join with 5 mods : FML@7.10.99.99,mcheli@0.10.8,Forge@10.13.4.1558,mcp@9.05,journeymap@5.1.3
+[21:55:34] [Netty IO #11/INFO] [journeymap/]: CLIENT
+[21:55:34] [Netty IO #11/INFO] [FML/]: Attempting connection with missing mods [] at CLIENT
+[21:55:34] [Netty IO #11/TRACE] [FML/]: $HandshakeAck:{2}->FMLHandshakeServerState$3:WAITINGCACK
+[21:55:34] [Netty IO #11/TRACE] [FML/]: $HandshakeAck:{3}->FMLHandshakeServerState$4:COMPLETE
+[21:55:34] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
+[21:55:34] [Netty IO #11/TRACE] [FML/]: $HandshakeAck:{4}->FMLHandshakeServerState$5:DONE
+[21:55:34] [Netty IO #11/TRACE] [FML/]: $HandshakeAck:{5}->FMLHandshakeServerState$5:DONE
+[21:56:17] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[21:57:02] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[21:57:47] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[21:58:32] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[21:59:17] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[22:00:02] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[22:00:47] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[22:01:32] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[22:02:17] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[22:02:46] [Netty IO #11/ERROR] [FML/]: NetworkDispatcher exception
+java.io.IOException: An established connection was aborted by the software in your host machine
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:1.8.0_73]
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source) ~[?:1.8.0_73]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source) ~[?:1.8.0_73]
+	at sun.nio.ch.IOUtil.read(Unknown Source) ~[?:1.8.0_73]
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source) ~[?:1.8.0_73]
+	at io.netty.buffer.UnpooledUnsafeDirectByteBuf.setBytes(UnpooledUnsafeDirectByteBuf.java:436) ~[UnpooledUnsafeDirectByteBuf.class:?]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:870) ~[AbstractByteBuf.class:?]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:208) ~[NioSocketChannel.class:?]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:87) [AbstractNioByteChannel$NioByteUnsafe.class:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:480) [NioEventLoop.class:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:447) [NioEventLoop.class:?]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:341) [NioEventLoop.class:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:101) [SingleThreadEventExecutor$2.class:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_73]
+[22:03:02] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[22:03:47] [Netty IO #12/TRACE] [FML/]: $ClientHello->FMLHandshakeServerState$2:HELLO
+[22:03:47] [Netty IO #12/INFO] [FML/]: Client protocol version 2
+[22:03:47] [Netty IO #12/TRACE] [FML/]: $ModList:5 mods->FMLHandshakeServerState$2:HELLO
+[22:03:47] [Netty IO #12/INFO] [FML/]: Client attempting to join with 5 mods : FML@7.10.99.99,mcheli@0.10.8,Forge@10.13.4.1558,mcp@9.05,journeymap@5.1.3
+[22:03:47] [Netty IO #12/INFO] [journeymap/]: CLIENT
+[22:03:47] [Netty IO #12/INFO] [FML/]: Attempting connection with missing mods [] at CLIENT
+[22:03:47] [Netty IO #12/TRACE] [FML/]: $HandshakeAck:{2}->FMLHandshakeServerState$3:WAITINGCACK
+[22:03:47] [Netty IO #12/TRACE] [FML/]: $HandshakeAck:{3}->FMLHandshakeServerState$4:COMPLETE
+[22:03:47] [Netty IO #12/TRACE] [FML/]: $HandshakeAck:{4}->FMLHandshakeServerState$5:DONE
+[22:03:47] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
+[22:03:47] [Netty IO #12/TRACE] [FML/]: $HandshakeAck:{5}->FMLHandshakeServerState$5:DONE
+[22:03:47] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[22:04:32] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[22:05:17] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[22:06:02] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[22:06:47] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[22:07:09] [Netty IO #14/TRACE] [FML/]: $ClientHello->FMLHandshakeServerState$2:HELLO
+[22:07:09] [Netty IO #14/INFO] [FML/]: Client protocol version 2
+[22:07:09] [Netty IO #14/TRACE] [FML/]: $ModList:5 mods->FMLHandshakeServerState$2:HELLO
+[22:07:09] [Netty IO #14/INFO] [FML/]: Client attempting to join with 5 mods : FML@7.10.99.99,mcheli@0.10.8,Forge@10.13.4.1558,mcp@9.05,journeymap@5.1.3
+[22:07:09] [Netty IO #14/INFO] [journeymap/]: CLIENT
+[22:07:09] [Netty IO #14/INFO] [FML/]: Attempting connection with missing mods [] at CLIENT
+[22:07:09] [Netty IO #14/TRACE] [FML/]: $HandshakeAck:{2}->FMLHandshakeServerState$3:WAITINGCACK
+[22:07:09] [Netty IO #14/TRACE] [FML/]: $HandshakeAck:{3}->FMLHandshakeServerState$4:COMPLETE
+[22:07:09] [Netty IO #14/TRACE] [FML/]: $HandshakeAck:{4}->FMLHandshakeServerState$5:DONE
+[22:07:09] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
+[22:07:09] [Netty IO #14/TRACE] [FML/]: $HandshakeAck:{5}->FMLHandshakeServerState$5:DONE
+[22:07:32] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[22:08:17] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[22:09:02] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[22:09:47] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[22:10:32] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[22:11:17] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[22:12:02] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[22:12:47] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[22:13:32] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[22:14:17] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[22:15:02] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[22:15:21] [Netty IO #10/ERROR] [FML/]: NetworkDispatcher exception
+java.io.IOException: An established connection was aborted by the software in your host machine
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:1.8.0_73]
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source) ~[?:1.8.0_73]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source) ~[?:1.8.0_73]
+	at sun.nio.ch.IOUtil.read(Unknown Source) ~[?:1.8.0_73]
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source) ~[?:1.8.0_73]
+	at io.netty.buffer.UnpooledUnsafeDirectByteBuf.setBytes(UnpooledUnsafeDirectByteBuf.java:436) ~[UnpooledUnsafeDirectByteBuf.class:?]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:870) ~[AbstractByteBuf.class:?]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:208) ~[NioSocketChannel.class:?]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:87) [AbstractNioByteChannel$NioByteUnsafe.class:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:480) [NioEventLoop.class:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:447) [NioEventLoop.class:?]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:341) [NioEventLoop.class:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:101) [SingleThreadEventExecutor$2.class:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_73]
+[22:15:47] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[22:16:32] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[22:17:17] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[22:17:24] [Netty IO #15/TRACE] [FML/]: $ClientHello->FMLHandshakeServerState$2:HELLO
+[22:17:24] [Netty IO #15/INFO] [FML/]: Client protocol version 2
+[22:17:24] [Netty IO #15/TRACE] [FML/]: $ModList:5 mods->FMLHandshakeServerState$2:HELLO
+[22:17:24] [Netty IO #15/INFO] [FML/]: Client attempting to join with 5 mods : FML@7.10.99.99,mcheli@0.10.8,Forge@10.13.4.1558,mcp@9.05,journeymap@5.1.3
+[22:17:24] [Netty IO #15/INFO] [journeymap/]: CLIENT
+[22:17:24] [Netty IO #15/INFO] [FML/]: Attempting connection with missing mods [] at CLIENT
+[22:17:24] [Netty IO #15/TRACE] [FML/]: $HandshakeAck:{2}->FMLHandshakeServerState$3:WAITINGCACK
+[22:17:24] [Netty IO #15/TRACE] [FML/]: $HandshakeAck:{3}->FMLHandshakeServerState$4:COMPLETE
+[22:17:24] [Netty IO #15/TRACE] [FML/]: $HandshakeAck:{4}->FMLHandshakeServerState$5:DONE
+[22:17:24] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
+[22:17:24] [Netty IO #15/TRACE] [FML/]: $HandshakeAck:{5}->FMLHandshakeServerState$5:DONE
+[22:18:02] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[22:18:47] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[22:19:32] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[22:20:17] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[22:21:02] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[22:21:47] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[22:22:32] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[22:23:17] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[22:24:02] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[22:24:47] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[22:25:32] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[22:26:17] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[22:27:02] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[22:27:47] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[22:28:32] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[22:29:17] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[22:30:02] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[22:30:47] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[22:31:32] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[22:32:17] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[22:33:02] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[22:33:47] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[22:34:32] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[22:35:17] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[22:36:02] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[22:36:47] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[22:37:32] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[22:38:17] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[22:39:02] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[22:39:47] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[22:40:32] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[22:41:17] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[22:42:02] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[22:42:47] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[22:43:32] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[22:44:17] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[22:45:02] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[22:45:47] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[22:46:32] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[22:47:17] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[22:48:02] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[22:48:47] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[22:49:32] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[22:50:17] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[22:51:02] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[22:51:47] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[22:52:32] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[22:53:17] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[22:54:02] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[22:54:47] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[22:55:32] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[22:56:17] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[22:57:02] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[22:57:32] [Netty IO #1/TRACE] [FML/]: $ClientHello->FMLHandshakeServerState$2:HELLO
+[22:57:32] [Netty IO #1/INFO] [FML/]: Client protocol version 2
+[22:57:32] [Netty IO #1/TRACE] [FML/]: $ModList:5 mods->FMLHandshakeServerState$2:HELLO
+[22:57:32] [Netty IO #1/INFO] [FML/]: Client attempting to join with 5 mods : FML@7.10.99.99,mcheli@0.10.8,Forge@10.13.4.1558,mcp@9.05,journeymap@5.1.3
+[22:57:32] [Netty IO #1/INFO] [journeymap/]: CLIENT
+[22:57:32] [Netty IO #1/INFO] [FML/]: Attempting connection with missing mods [] at CLIENT
+[22:57:32] [Netty IO #1/TRACE] [FML/]: $HandshakeAck:{2}->FMLHandshakeServerState$3:WAITINGCACK
+[22:57:32] [Netty IO #1/TRACE] [FML/]: $HandshakeAck:{3}->FMLHandshakeServerState$4:COMPLETE
+[22:57:32] [Netty IO #1/TRACE] [FML/]: $HandshakeAck:{4}->FMLHandshakeServerState$5:DONE
+[22:57:32] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
+[22:57:32] [Netty IO #1/TRACE] [FML/]: $HandshakeAck:{5}->FMLHandshakeServerState$5:DONE
+[22:57:47] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[22:58:32] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[22:59:17] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[23:00:02] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[23:00:14] [Netty IO #3/TRACE] [FML/]: $ClientHello->FMLHandshakeServerState$2:HELLO
+[23:00:14] [Netty IO #3/INFO] [FML/]: Client protocol version 2
+[23:00:14] [Netty IO #3/TRACE] [FML/]: $ModList:5 mods->FMLHandshakeServerState$2:HELLO
+[23:00:14] [Netty IO #3/INFO] [FML/]: Client attempting to join with 5 mods : FML@7.10.99.99,mcheli@0.10.8,Forge@10.13.4.1558,mcp@9.05,journeymap@5.1.3
+[23:00:14] [Netty IO #3/INFO] [journeymap/]: CLIENT
+[23:00:14] [Netty IO #3/INFO] [FML/]: Attempting connection with missing mods [] at CLIENT
+[23:00:15] [Netty IO #3/TRACE] [FML/]: $HandshakeAck:{2}->FMLHandshakeServerState$3:WAITINGCACK
+[23:00:15] [Netty IO #3/TRACE] [FML/]: $HandshakeAck:{3}->FMLHandshakeServerState$4:COMPLETE
+[23:00:15] [Netty IO #3/TRACE] [FML/]: $HandshakeAck:{4}->FMLHandshakeServerState$5:DONE
+[23:00:15] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
+[23:00:15] [Netty IO #3/TRACE] [FML/]: $HandshakeAck:{5}->FMLHandshakeServerState$5:DONE
+[23:00:47] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[23:01:32] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[23:02:17] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[23:03:02] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[23:03:47] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[23:04:32] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[23:05:17] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[23:05:23] [Netty IO #5/TRACE] [FML/]: $ClientHello->FMLHandshakeServerState$2:HELLO
+[23:05:23] [Netty IO #5/INFO] [FML/]: Client protocol version 2
+[23:05:23] [Netty IO #5/TRACE] [FML/]: $ModList:5 mods->FMLHandshakeServerState$2:HELLO
+[23:05:23] [Netty IO #5/INFO] [FML/]: Client attempting to join with 5 mods : FML@7.10.99.99,mcheli@0.10.8,Forge@10.13.4.1558,mcp@9.05,journeymap@5.1.3
+[23:05:23] [Netty IO #5/INFO] [journeymap/]: CLIENT
+[23:05:23] [Netty IO #5/INFO] [FML/]: Attempting connection with missing mods [] at CLIENT
+[23:05:23] [Netty IO #5/TRACE] [FML/]: $HandshakeAck:{2}->FMLHandshakeServerState$3:WAITINGCACK
+[23:05:23] [Netty IO #5/TRACE] [FML/]: $HandshakeAck:{3}->FMLHandshakeServerState$4:COMPLETE
+[23:05:23] [Netty IO #5/TRACE] [FML/]: $HandshakeAck:{4}->FMLHandshakeServerState$5:DONE
+[23:05:23] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
+[23:05:23] [Netty IO #5/TRACE] [FML/]: $HandshakeAck:{5}->FMLHandshakeServerState$5:DONE
+[23:06:02] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[23:06:47] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[23:07:32] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[23:08:17] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[23:09:02] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[23:09:47] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[23:10:32] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[23:11:17] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[23:12:02] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[23:12:47] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[23:13:32] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[23:14:17] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[23:15:02] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[23:15:47] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[23:16:32] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[23:17:17] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[23:18:02] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[23:18:47] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[23:19:32] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[23:20:17] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[23:21:02] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[23:21:47] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[23:22:32] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[23:23:17] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[23:24:02] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[23:24:47] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[23:25:32] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[23:26:17] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[23:27:02] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[23:27:47] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[23:28:32] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[23:29:17] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[23:30:02] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[23:30:47] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[23:31:23] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStoppingEvent to mod mcp
+[23:31:23] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStoppingEvent to mod mcp
+[23:31:23] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - Minecraft Coder Pack took 0.001s
+[23:31:23] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStoppingEvent to mod FML
+[23:31:23] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStoppingEvent to mod FML
+[23:31:23] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - Forge Mod Loader took 0.001s
+[23:31:23] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerStoppingEvent to mod Forge
+[23:31:23] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerStoppingEvent to mod Forge
+[23:31:23] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - Minecraft Forge took 0.000s
+[23:31:23] [Server thread/TRACE] [journeymap/journeymap]: Sending event FMLServerStoppingEvent to mod journeymap
+[23:31:23] [Server thread/TRACE] [journeymap/journeymap]: Sent event FMLServerStoppingEvent to mod journeymap
+[23:31:23] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - JourneyMap took 0.000s
+[23:31:23] [Server thread/TRACE] [mcheli/mcheli]: Sending event FMLServerStoppingEvent to mod mcheli
+[23:31:23] [Server thread/TRACE] [mcheli/mcheli]: Sent event FMLServerStoppingEvent to mod mcheli
+[23:31:23] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - MC Helicopter took 0.000s
+[23:31:23] [Server thread/DEBUG] [FML/]: Bar Finished: ServerStopping took 0.002s
+[23:31:23] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[23:31:23] [Server thread/INFO] [FML/]: Unloading dimension 0
+[23:31:23] [Server thread/INFO] [FML/]: Unloading dimension -1
+[23:31:23] [Server thread/INFO] [FML/]: Unloading dimension 1
+[23:31:23] [Server thread/DEBUG] [FML/]: Reverting to frozen data state.
+[23:31:23] [Server thread/TRACE] [mcp/mcp]: Sending event FMLModIdMappingEvent to mod mcp
+[23:31:23] [Server thread/TRACE] [mcp/mcp]: Sent event FMLModIdMappingEvent to mod mcp
+[23:31:23] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Coder Pack took 0.000s
+[23:31:23] [Server thread/TRACE] [FML/FML]: Sending event FMLModIdMappingEvent to mod FML
+[23:31:23] [Server thread/TRACE] [FML/FML]: Sent event FMLModIdMappingEvent to mod FML
+[23:31:23] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Forge Mod Loader took 0.000s
+[23:31:23] [Server thread/TRACE] [Forge/Forge]: Sending event FMLModIdMappingEvent to mod Forge
+[23:31:23] [Server thread/TRACE] [Forge/Forge]: Sent event FMLModIdMappingEvent to mod Forge
+[23:31:23] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Forge took 0.001s
+[23:31:23] [Server thread/TRACE] [journeymap/journeymap]: Sending event FMLModIdMappingEvent to mod journeymap
+[23:31:23] [Server thread/TRACE] [journeymap/journeymap]: Sent event FMLModIdMappingEvent to mod journeymap
+[23:31:23] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - JourneyMap took 0.000s
+[23:31:23] [Server thread/TRACE] [mcheli/mcheli]: Sending event FMLModIdMappingEvent to mod mcheli
+[23:31:23] [Server thread/TRACE] [mcheli/mcheli]: Sent event FMLModIdMappingEvent to mod mcheli
+[23:31:23] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - MC Helicopter took 0.000s
+[23:31:23] [Server thread/DEBUG] [FML/]: Bar Finished: ModIdMapping took 0.002s
+[23:31:23] [Server thread/INFO] [FML/]: Applying holder lookups
+[23:31:23] [Server thread/INFO] [FML/]: Holder lookups applied
+[23:31:23] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStoppedEvent to mod mcp
+[23:31:23] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStoppedEvent to mod mcp
+[23:31:23] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Minecraft Coder Pack took 0.000s
+[23:31:23] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStoppedEvent to mod FML
+[23:31:23] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStoppedEvent to mod FML
+[23:31:23] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Forge Mod Loader took 0.000s
+[23:31:23] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerStoppedEvent to mod Forge
+[23:31:23] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerStoppedEvent to mod Forge
+[23:31:23] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Minecraft Forge took 0.000s
+[23:31:23] [Server thread/TRACE] [journeymap/journeymap]: Sending event FMLServerStoppedEvent to mod journeymap
+[23:31:23] [Server thread/TRACE] [journeymap/journeymap]: Sent event FMLServerStoppedEvent to mod journeymap
+[23:31:23] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - JourneyMap took 0.000s
+[23:31:23] [Server thread/TRACE] [mcheli/mcheli]: Sending event FMLServerStoppedEvent to mod mcheli
+[23:31:23] [Server thread/TRACE] [mcheli/mcheli]: Sent event FMLServerStoppedEvent to mod mcheli
+[23:31:23] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - MC Helicopter took 0.000s
+[23:31:23] [Server thread/DEBUG] [FML/]: Bar Finished: ServerStopped took 0.001s
