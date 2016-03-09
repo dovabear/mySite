@@ -1,0 +1,22 @@
+[19:45:21] [main/DEBUG] [FML/]: Injecting tracing printstreams for STDOUT/STDERR.
+[19:45:21] [main/INFO] [FML/]: Forge Mod Loader version 7.99.36.1558 for Minecraft 1.7.10 loading
+[19:45:21] [main/INFO] [FML/]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_73, running on Windows 10:amd64:10.0, installed at C:\Java\jre1.8.0_73
+[19:45:21] [main/DEBUG] [FML/]: Java classpath at launch is forge-1.7.10-10.13.4.1558-1.7.10-universal.jar
+[19:45:21] [main/DEBUG] [FML/]: Java library path at launch is C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Skype\Phone\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Bandizip\7z;.
+[19:45:21] [main/DEBUG] [FML/]: Enabling runtime deobfuscation
+[19:45:21] [main/DEBUG] [FML/]: Instantiating coremod class FMLCorePlugin
+[19:45:21] [main/DEBUG] [FML/]: Added access transformer class cpw.mods.fml.common.asm.transformers.AccessTransformer to enqueued access transformers
+[19:45:21] [main/DEBUG] [FML/]: Enqueued coremod FMLCorePlugin
+[19:45:21] [main/DEBUG] [FML/]: Instantiating coremod class FMLForgePlugin
+[19:45:21] [main/DEBUG] [FML/]: Added access transformer class net.minecraftforge.transformers.ForgeAccessTransformer to enqueued access transformers
+[19:45:21] [main/DEBUG] [FML/]: Enqueued coremod FMLForgePlugin
+[19:45:21] [main/DEBUG] [FML/]: All fundamental core mods are successfully located
+[19:45:21] [main/DEBUG] [FML/]: Attempting to load commandline specified mods, relative to C:\Users\PC\Documents\mySite-master\mcServer\Forge1.7.10_10.13.4.1558\.
+[19:45:21] [main/DEBUG] [FML/]: Discovering coremods
+[19:45:21] [main/DEBUG] [FML/]: Examining for coremod candidacy [1.7.10]bspkrsCore-universal-6.16.jar
+[19:45:21] [main/DEBUG] [FML/]: Not found coremod data in [1.7.10]bspkrsCore-universal-6.16.jar
+[19:45:21] [main/DEBUG] [FML/]: Examining for coremod candidacy [1.7.10]Treecapitator-universal-2.0.4.jar
+[19:45:21] [main/DEBUG] [FML/]: Not found coremod data in [1.7.10]Treecapitator-universal-2.0.4.jar
+[19:45:21] [main/DEBUG] [FML/]: Examining for coremod candidacy CodeChickenCore-1.7.10-1.0.7.47-universal.jar
+[19:45:21] [main/TRACE] [FML/]: Adding CodeChickenCore-1.7.10-1.0.7.47-universal.jar to the list of known coremods, it will not be examined again
+[19:45:21] [main/DEBUG] [FML/]: Instantiating coremod class CodeChickenCorePlugin
