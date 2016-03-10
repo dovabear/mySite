@@ -1,1 +1,1 @@
-java -jar -Xms512m -Xmx6144m forge-1.7.10-10.13.4.1558-1.7.10-universal.jar
+java -jar -Xms512m -Xmx4096m forge-1.7.10-10.13.4.1558-1.7.10-universal.jar

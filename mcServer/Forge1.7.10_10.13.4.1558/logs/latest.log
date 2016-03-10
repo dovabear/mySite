@@ -1,9 +1,13 @@
-[19:30:48] [User Authenticator #5/INFO]: UUID of player Gina970309 is e718653d-8090-4c6a-88ec-da9f8aaf6274
-[19:30:48] [Server thread/INFO]: Gina970309[/1.171.25.95:14404] logged in with entity id 280540 at (-179.67270732202442, 64.0, 65.10632343680894)
-[19:30:48] [Server thread/INFO]: Gina970309 joined the game
-[19:53:09] [Server thread/INFO]: [Gina970309: Given [Bottle o' Enchanting] * 64 to Gina970309]
-[19:53:09] [Server thread/INFO]: [Gina970309: Given [Bottle o' Enchanting] * 64 to Gina970309]
-[19:53:09] [Server thread/INFO]: [Gina970309: Given [Bottle o' Enchanting] * 64 to Gina970309]
-[19:53:49] [Server thread/INFO]: [Gina970309: Given [Diamond Pickaxe] * 1 to Gina970309]
-[20:04:31] [Server thread/INFO]: Gina970309 lost connection: TranslatableComponent{key='disconnect.genericReason', args=[Internal Exception: java.io.IOException: 遠端主機已強制關閉一個現存的連線。], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
-[20:04:31] [Server thread/INFO]: Gina970309 left the game
+[20:10:47] [Server thread/INFO]: Starting minecraft server version 1.7.10
+[20:10:56] [Server thread/INFO]: Loading properties
+[20:10:56] [Server thread/INFO]: Default game type: SURVIVAL
+[20:10:56] [Server thread/INFO]: Generating keypair
+[20:10:57] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:11:00] [Server thread/INFO]: Preparing level "world_RTG"
+[20:11:01] [Server thread/INFO]: Preparing start region for level 0
+[20:11:02] [Server thread/INFO]: Done (1.538s)! For help, type "help" or "?"
+[20:12:04] [User Authenticator #1/INFO]: UUID of player othunderx is d68d2732-422a-478a-b27d-ba75d7b3e14a
+[20:12:04] [Server thread/INFO]: othunderx[/127.0.0.1:50581] logged in with entity id 296 at (-163.28207719040824, 82.0, 86.00736522372449)
+[20:12:04] [Server thread/INFO]: othunderx joined the game
+[20:12:37] [Server thread/INFO]: othunderx lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[20:12:37] [Server thread/INFO]: othunderx left the game
