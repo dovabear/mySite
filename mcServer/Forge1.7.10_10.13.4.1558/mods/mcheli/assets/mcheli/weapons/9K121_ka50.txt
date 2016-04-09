@@ -12,6 +12,9 @@ ReloadTime = 130
 ModeNum = 2
 ProximityFuseDist = 1
 Sound = missile_3_snd
+RidableOnly = true
+
+DamageFactor = tank, 2.0
 
 MaxAmmo = 6
 SuppliedNum = 3

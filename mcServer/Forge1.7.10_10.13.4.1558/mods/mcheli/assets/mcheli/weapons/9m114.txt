@@ -9,6 +9,8 @@ Delay = 100
 ModeNum = 2
 Sound = missile_1_snd
 
+DamageFactor = tank, 2.0
+
 MaxAmmo = 4
 SuppliedNum = 2
 Item =  1, iron_ingot

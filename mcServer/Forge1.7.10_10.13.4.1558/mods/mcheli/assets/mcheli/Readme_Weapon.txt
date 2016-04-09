@@ -1,9 +1,14 @@
 
-2015/09/17
+2016/03/14
 
 ;***********************************************************************************
 ;■武器設定ファイル weapons/***.txt, sound/***_snd.ogg
 ;***********************************************************************************
+
+; ★ 重要 ★
+; 武器設定ファイルはマインクラフトを起動したままでも再読み込みできる。
+; 機体に乗る → Rキーで補給画面 → MOD Option → Development → Reload All Weapons
+; これは携帯兵器も含めて全兵器が再読み込みされる。
 
 ;武器を増やすには以下の2ファイルが必要 (全て小文字であること)
 ; ・weaponsフォルダに武器設定ファイル(txt)を増やす
@@ -36,6 +41,17 @@ Type = MachineGun1
 
 Power = 8
 ;ダメージ
+
+DamageFactor = tank, 2.0
+;ダメージ倍率
+; 1番目のパラメータには以下のいずれかを設定する
+;  player : プレイヤー
+;  heli または helicopter : ヘリコプター
+;  plane : 固定翼機
+;  tank : 戦車または自動車
+;  vehicle : 地上兵器
+; 2番目のパラメータにはダメージの倍率を設定する[0~]。 3.4でPowerが10なら34のダメージになる
+; この設定は複数行書いた場合、それぞれ反映される
 
 Acceleration = 4.0
 ;弾の速度 (一部を除き最大4.0)
@@ -79,6 +95,22 @@ Sight = MoveSight or None or MissileSight
 ;	MoveSight		機体の向きにあわせて移動する照準
 ;	MissileSight	モブをロックするタイプの照準(AAMissile/ATMissileでは必須)
 
+Zoom = 4.2, 9.2
+; 携帯兵器のみの設定
+; スコープを除いた時の倍率。, で区切って複数設定すると、Zキーで切り替えできるようになる
+
+Group = MainGun
+; 武器のグループを設定する
+; 同じ武器のグループはどれか1つでも使用すると全てリロードされる
+; 具体的には戦車の主砲の武器を弾種ごと以下のように分け、
+; rehinmetall_apfsds.txt, rehinmetall_he.txt, canistershell.txt の3つに Group = MainGun を設定すると
+; 1つでも使用すると他の2つもリロードされる。弾は減らない
+;  1番目: rehinmetall_apfsds
+;  2番目: rehinmetall_he
+;  3番目: canistershell
+; これは1番目の武器を使用後、すぐに2番目に切り替えて撃つような動作を防ぐための設定
+
+
 Delay = 5
 ;次の使用までの待ち時間(約1/20秒単位)、小さいほど早い
 
@@ -115,9 +147,16 @@ Sound = rocket_snd
 LockTime = 20
 ;ロックオンするタイプのミサイルのロックまでの時間。大きいほどロックまで時間がかかる。
 
+RidableOnly = true
+; プレイヤーを機体に乗っているときのみロック可能にする設定
+
 ProximityFuseDist = 1.0
 ;ロックオンするタイプのミサイルの近接信管の動作距離
 ; 1 を指定すると 1m 以内に入ったら爆発
+
+RigidityTime = 0
+; ミサイルを撃ってから追尾を開始するまでのカウント
+; 記載しない場合、デフォルト値として  7 が設定される
 
 Accuracy = 1
 ; 無誘導の銃弾やロケットの誤差。大きいほど誤差が大きい。
@@ -174,8 +213,8 @@ GuidedTorpedo = true
 ; true  にすると誘導魚雷になり、指定したブロックに向かう
 ; false にすると無誘導魚雷になり、落下した位置からまっすぐに進む
 
-Particle = none
-; 特定武器の使用時のエフェクトを指定する
+TrajectoryParticle = flame
+; 特定武器の使用時の「軌跡」のエフェクトを指定する（ミサイルが追尾しているときのパーティクルなど）
 ; none          ...エフェクト無し
 ; explode       ...煙のエフェクト
 ; flame         ...炎のエフェクト
@@ -185,10 +224,25 @@ Particle = none
 ; smoke         ...煙のエフェクト
 ;
 ; 詳しい方向けへの説明: spawnParticle に設定する文字列なので、他の文字列も指定可能。
+; Particle は1.0.0から廃止。代わりに AddMuzzleFlash または AddMuzzleFlashSmoke を使用すること。
+
+TrajectoryParticleStartTick = 10
+; TrajectoryParticle のエフェクトが出始めるまでのカウント
+
 
 DisableSmoke = true
 ; 特定の武器の煙のエフェクトを無効化する
 ; (射撃時のエフェクトではなく、移動時に出る煙のエフェクト)
+
+
+AddMuzzleFlash  =  0.5,             0.20,   1,        150,254,219,184
+;AddMuzzleFlash = 発射元からの距離, サイズ, 表示時間,  A,  R,  G,  B
+; ★注意!：武器の使用間隔が5辺りだと正常に表示できないことがあるため、使用しないこと。
+
+AddMuzzleFlashSmoke  =  2.2,             1,       5.0,    2.0,  15,      180,250,245,240
+;AddMuzzleFlashSmoke = 発射元からの距離, 表示数, サイズ, 範囲, 表示時間,  A,  R,  G,  B
+; ★注意!：武器の使用間隔が5辺りだと正常に表示できないことがあるため、使用しないこと。
+
 
 SetCartridge = cartridge, 0.0, 0, 0, 2.00, -0.04, 0.40
 ; 武器使用時に空薬莢を落とす設定
@@ -245,6 +299,10 @@ DispenseItem = flint_and_steel
 
 DispenseRange = 4
 ; DispenseItemで指定したアイテムの使用範囲(単位：ブロック)
+
+
+Recoil = 1.1
+; 武器を使用した時の機体の揺れの強さ
 
 
 RecoilBufCount = 40, 5

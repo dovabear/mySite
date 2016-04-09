@@ -1,7 +1,7 @@
 DisplayName = B-2A Spirit
 AddDisplayName = ja_JP, B-2A スピリット
 ItemID = 28738
-MaxHp  = 500
+MaxHp  = 700
 EnableNightVision  = true
 EnableEntityRadar  = true
 EnableEjectionSeat = true

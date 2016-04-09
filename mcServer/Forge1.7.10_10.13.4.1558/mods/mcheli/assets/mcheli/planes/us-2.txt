@@ -1,7 +1,7 @@
 DisplayName = US-2
 AddDisplayName = ja_JP, US-2救難飛行艇
 ItemID = 28711
-MaxHp = 250
+MaxHp = 350
 Speed = 0.9
 Float = true
 FloatOffset = -2.00

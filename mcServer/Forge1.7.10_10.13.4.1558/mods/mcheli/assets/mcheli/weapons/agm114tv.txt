@@ -10,6 +10,8 @@ ModeNum = 2
 ModelBullet = agm114
 Sound = missile_1_snd
 
+DamageFactor = tank, 2.0
+
 ;DEBUG:Manual control only
 ;FixMode = 1
 

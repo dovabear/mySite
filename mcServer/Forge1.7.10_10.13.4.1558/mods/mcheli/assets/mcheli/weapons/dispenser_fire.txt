@@ -14,6 +14,7 @@ BombletDiff = 1
 Round = 15
 ReloadTime = 170
 
+TrajectoryParticle = flame
 SmokeSize   = 3.0
 
 ;着弾時に使用するアイテムに火打ち石を指定する。地面に火がつく。

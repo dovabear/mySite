@@ -9,6 +9,9 @@ Delay = 100
 LockTime = 20
 ModelBullet = hydra70
 Sound = lau-68_snd
+RidableOnly = true
+
+DamageFactor = tank, 2.0
 
 MaxAmmo = 12
 SuppliedNum = 2

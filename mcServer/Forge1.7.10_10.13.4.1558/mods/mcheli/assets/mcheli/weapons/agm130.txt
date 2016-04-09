@@ -10,6 +10,8 @@ ModelBullet = agm130
 Sound = missile_1_snd
 DisableSmoke = true
 
+DamageFactor = tank, 2.0
+
 MaxAmmo = 4
 SuppliedNum = 2
 Item =  3, iron_ingot
