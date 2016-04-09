@@ -1,7 +1,7 @@
 DisplayName = C5A galaxy
 AddDisplayName = ja_JP, C5A ギャラクシー
 ItemID = 28739
-MaxHp = 600
+MaxHp = 1000
 Speed = 0.8
 Sound = plane
 ThrottleUpDown = 0.4
@@ -83,9 +83,9 @@ BoundingBox =  27.83, 5.55, -29.85,  7.0, 4.0
 
 AddRecipe = "   ",  "Y C",  "X X",  X, iron_block, Y, diamond, C,chest
 
-; AddRack=Entity type, RackPos X,Y,Z,    EntryPos X,Y,Z,   Range,  Open parachute atl,  Yaw, Pitch
-AddRack = mh-60g/mh-60l_dap/sh-60/sh-3,   0, 2.1,  -4.8,   0, 0, -2.5,   11,    100000
-AddRack = mh-60g/mh-60l_dap/sh-60/sh-3,   0, 2.1, -22.8,   0, 0,-42.3,   11,    100000
+; AddRack=Entity type,                    RackPos X,Y,Z,   EntryPos X,Y,Z,   Range,  Open parachute atl,  Yaw, Pitch
+AddRack = mh-60g/mh-60l_dap/sh-60/sh-3,   0, 2.1,  -4.8,   0, 0, -2.5,      11,    100000
+AddRack = mh-60g/mh-60l_dap/sh-60/sh-3,   0, 2.1, -22.8,   0, 0,-42.3,      11,    100000
 
 AddRack = container,   2.0, 2.1, -11.0,  0, 0,  -4.3,   15,    20
 AddRack = container,  -2.0, 2.1, -11.0,  0, 0,  -4.3,   15,    20

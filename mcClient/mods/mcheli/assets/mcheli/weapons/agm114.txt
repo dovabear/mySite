@@ -11,6 +11,9 @@ ModeNum = 2
 ProximityFuseDist = 1
 ModelBullet = agm114
 Sound = missile_1_snd
+RidableOnly = true
+
+DamageFactor = tank, 2.0
 
 MaxAmmo = 4
 SuppliedNum = 2

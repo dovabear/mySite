@@ -1,7 +1,7 @@
 DisplayName = AC-130H Spectre
 AddDisplayName = ja_JP, AC-130 H スペクター
 ItemID = 28713
-MaxHp = 400
+MaxHp = 800
 Speed = 0.8
 Sound = turboprop
 ThrottleUpDown = 0.3

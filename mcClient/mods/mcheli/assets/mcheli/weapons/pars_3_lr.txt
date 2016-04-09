@@ -11,6 +11,9 @@ ModeNum = 2
 Round = 8
 ReloadTime = 120
 Sound = missile_1_snd
+RidableOnly = true
+
+DamageFactor = tank, 2.0
 
 MaxAmmo = 16
 SuppliedNum = 4

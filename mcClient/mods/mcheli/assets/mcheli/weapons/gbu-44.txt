@@ -12,6 +12,9 @@ ModeNum = 1
 DisableSmoke = true
 ProximityFuseDist = 1
 ModelBullet = sdb
+RidableOnly = true
+
+DamageFactor = tank, 2.0
 
 MaxAmmo = 6
 SuppliedNum = 2

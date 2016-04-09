@@ -8,6 +8,7 @@ MaxRotationPitch = 0
 DamageFactor = 2
 CameraPosition = 0.0, 2.00, 0.0
 AmmoSupplyRange = 35
+;RepairOtherVehicles = 30, 25
 CanRide = false
 
 AddSeat = 0.00,  1.0, 0.00

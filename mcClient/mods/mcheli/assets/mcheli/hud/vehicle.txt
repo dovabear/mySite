@@ -52,6 +52,10 @@ If = is_heat_wpn==1
 	DrawRect = -144, 58, 41*wpn_heat, 8
 EndIf
 
+; 迫撃砲の着弾距離
+Color = 0xFFFFC90E
+Call = mortar
+
 If = cam_mode==1
 	DrawString = 30, 50, "NIGHT VISION"
 Endif

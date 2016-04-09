@@ -1,5 +1,5 @@
-DisplayName = Mig-29 Fulcrum
-AddDisplayName = ja_JP, Mig-29 フルクラム
+DisplayName = MiG-29 Fulcrum
+AddDisplayName = ja_JP, MiG-29 フルクラム
 ItemID = 28717
 MaxHp = 140
 Speed = 1.15

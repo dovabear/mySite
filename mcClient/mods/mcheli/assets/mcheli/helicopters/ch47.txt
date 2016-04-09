@@ -1,7 +1,7 @@
 DisplayName = CH47 chnuke
 AddDisplayName = ja_JP, CH47 チヌーク
 ItemID = 28811
-MaxHp = 200
+MaxHp = 300
 EnableNightVision = true
 Float = true
 Speed = 0.5

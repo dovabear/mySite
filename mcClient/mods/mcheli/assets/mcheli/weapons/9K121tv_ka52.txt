@@ -11,6 +11,8 @@ ReloadTime = 130
 ModeNum = 2
 Sound = missile_3_snd
 
+DamageFactor = tank, 2.0
+
 MaxAmmo = 12
 SuppliedNum = 3
 Item =  1, iron_ingot

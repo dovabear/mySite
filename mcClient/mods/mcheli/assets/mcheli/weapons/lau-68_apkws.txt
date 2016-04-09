@@ -11,6 +11,8 @@ Round = 4
 ReloadTime = 120
 Sound = lau-68_snd
 
+DamageFactor = tank, 2.0
+
 MaxAmmo = 8
 SuppliedNum = 2
 Item =  1, iron_ingot

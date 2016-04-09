@@ -1,7 +1,7 @@
 DisplayName = E767
 AddDisplayName = ja_JP, E767
 ItemID = 28747
-MaxHp = 350
+MaxHp = 650
 Speed = 0.9
 Sound = plane
 ThrottleUpDown = 0.30
@@ -61,8 +61,8 @@ AddPartLG = -2.25, 2.00,  -23.54,  0,0,1,  90
 AddPartLG =  2.25, 2.00,  -23.54,  0,0,1, -90
 AddPartLG =  2.25, 2.00,  -23.54,  0,0,1, -90
 AddPartLG = -2.25, 2.00,  -23.54,  0,0,1,  90
-AddPartLGHatch = -0.30, 1.37,  -23.54,  0,0,1,-90
-AddPartLGHatch =  0.30, 1.37,  -23.54,  0,0,1, 90
+AddPartLGHatch =  0.30, 1.37,  -23.54,  0,0,1,-90
+AddPartLGHatch = -0.30, 1.37,  -23.54,  0,0,1, 90
 
 AddRecipe = " R ",  "DYD",  "III",  Y,mcheli:uav_station, R,redstone_block, I,iron_block, D,diamond
 

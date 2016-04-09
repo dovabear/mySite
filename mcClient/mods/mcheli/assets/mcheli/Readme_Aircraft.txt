@@ -1,9 +1,15 @@
 
-2015/08/19
+2016/03/15
 
+
+; ★ 重要 ★
+; 設定ファイル と モデル はマインクラフトを起動したままでも再読み込みできる。
+; [ 機体に乗る → Rキーで補給画面 → MOD Option → Development → Reload aircraft setting ]
+; テクスチャ,音声の再読み込みはヘリMODからではなくマインクラフトのデフォルトの機能を利用する。
+; [ Escキーでゲームメニュー → 設定 → リソースパック → 完了 ]
 
 ;***********************************************************************************
-■ヘリコプター/戦闘機/地上兵器の設定ファイル 共通設定
+■ヘリコプター/戦闘機/地上兵器/車両の設定ファイル 共通設定
 ;***********************************************************************************
 
 DisplayName =  AH-6 Killer Egg
@@ -173,10 +179,15 @@ ExclusionSeat = 15, 17
 ; この例で分かる通り、全ての座席の後にラックを記載したほうが番号が分かりやすい
 
 
+TurretPosition = 0.0, 0.0, 0.25
+; 砲塔の回転の中心位置
+; この設定の使用はあまり推奨しない。できれば砲塔の回転位置X,Z座標が0になるのが望ましい。
+
 AddWeapon = m230,     0.00, 0.90, 2.54,   0.0, 0.0, true, 2
 AddWeapon = hydra70,  0.00, 0.90, 2.54,   0.0, 0.0, true, 1, 0,-60,60, 0,25
 AddWeapon = m134,     1.48, 0.40, 1.54,   1.0, 0.0
 AddWeapon = m134,    -1.48, 0.40, 1.54,  -1.0, 0.0
+AddTurretWeapon = hydra70,  0.00, 0.90, 2.54,   0.0, 0.0, true, 1, 0,-60,60, 0,25
 ;武器を追加する (weaponsフォルダの拡張子を除いたファイル名と一致すること)
 ; m134のように全く同じ武器を連続で登録した場合、
 ; 2箇所から順に使用する1つの武器として扱う
@@ -195,6 +206,8 @@ AddWeapon = m134,    -1.48, 0.40, 1.54,  -1.0, 0.0
 ; MaxYaw は、機体を上から見た時に、DefaultYawから時計回りに動かせる角度
 ; MinPitch は、上方向に動かせる角度
 ; MaxPitch は、下方向に動かせる角度
+;
+; AddTurretWeapon のAddWeaponとの違いは砲塔の向きによって発射位置が変わる点のみ
 
 AddSearchLight      = 0.71,  -0.02,  0.02,   0x50FFFFFF,   0x10FFFFC0,    60.0, 20.0,       0,   0
 AddFixedSearchLight = 0.71,  -0.02,  0.02,   0x50FFFFFF,   0x10FFFFC0,    60.0, 20.0,       0,   0
@@ -203,6 +216,10 @@ AddFixedSearchLight = 0.71,  -0.02,  0.02,   0x50FFFFFF,   0x10FFFFC0,    60.0, 
 ; AddFixedSearchLight : 常に同じ向きを向く、固定ライト
 ; Yaw と Pitch はサーチライトの向く角度で、固定ライトでも可動ライトでも効果がある
 
+AddPartLightHatch =  0.32, 0.23, 1.83,   -1,0,-0.024, 90
+;AddPartLightHatch= 座標X, 座標Y, 座標Z, 回転軸X, 回転軸Y, 回転軸Z, 回転角度 -1800～1800
+; サーチライトがONの間だけ開くパーツを追加する。
+; ★重要：AddSearchLight または AddFixedSearchLight が必須
 
 AddRecipe = " Y ",  "YXY",  " YD",  X, iron_block, Y, iron_ingot, D,dye,2
 AddRecipe ="YXY", X, mcheli:ah-6, Y, redstone
@@ -223,13 +240,23 @@ http://minecraft.gamepedia.com/Data_values
 
 FlareType = 1
 ; フレアの有無
-; 0=無し、1=有り、2=大型機向けのフレア
+; 0=無し
+; 1=有り
+; 2=大型機向けのフレア
+; 3=横方向に撒く
+; 4=正面に撒く
+; 5=下方向に撒く
+; 10=戦車用のスモークディスチャージャー
 
 Float  = true
 ; 水に浮く設定
 
 FloatOffset = -1.0
 ; 水に浮いた際の高さのオフセット(負の値可)
+
+SubmergedDamageHeight = 2
+; 指定した高さまでの水に触れてもダメージを受けない
+; 2であれば2ブロックまでダメージ無し
 
 MaxHP = 100
 ; 耐久力
@@ -295,8 +322,14 @@ AddPartCamera = 座標X,Y,Z, Yaw連動, Pitch連動
 ; 2番席にモブが居る場合、2番席のモブの方向を向く。
 ; モデルファイル名 機体名_camera?.obj (命名規則はAddPartHatchを参照)
 
+AddPartRotation = 0.00, 9.00, -31.17,  0,-1,0,       1.3,      false
+; AddPartRotation = 位置X, Y, Z        回転軸X,Y,Z   回転速度, 常に回転させるか
+; 一定間隔で回転するパーツを追加
+
 AddPartWeapon        = m230,       false, true, true,  -2.51,  1.29,  -1.51
 AddPartWeapon        = m102_105mm, false, true, true,  -2.51,  1.29,  -1.51, 1.00
+AddPartWeapon        = rehinmetall_apfsds / rehinmetall_he, false, true, false,  0.00, 2.10, 0.00, 0
+AddPartTurretWeapon  = mg7_62mm,   false, true, true,  -0.83,  3.39,  -0.57, 0
 AddPartRotWeapon     = m134_r50,   false, true, true,  -1.825, 1.475, -0.25, 1,0,0
 AddPartWeaponChild   = false, true, 0.00, 0.5, 3.00
 AddPartWeaponMissile = aim120,     false, false,false, -2.51,  1.29,  -1.51
@@ -304,7 +337,7 @@ AddPartWeaponMissile = aim120,     false, false,false, -2.51,  1.29,  -1.51
 ; AddPartWeapon = 連動する武器名(無しの時はnone), ガンナー時非表示？, Yaw連動, Pitch連動, 回転座標X,Y,Z, 駐退距離
 ; AddPartRotWeapon = 連動する武器名(無しの時はnone), ガンナー時非表示？, Yaw連動, Pitch連動, 回転座標X,Y,Z, 回転軸X,Y,Z
 ; AddPartWeaponChild = Yaw連動, Pitch連動, 回転座標X,Y,Z
-; AddWeapon で追加した武器に連動して角度が変わる。
+; AddWeapon で追加した武器に連動して角度が変わる。武器名は / で区切って複数設定できる
 ; 武器の角度の範囲もAddWeaponで追加した武器に従う。
 ; 駐退距離は砲の駐退する距離
 ; AddPartRotWeapon はガトリング用で、武器使用中は回転する
@@ -318,6 +351,8 @@ AddPartWeaponMissile = aim120,     false, false,false, -2.51,  1.29,  -1.51
 ;
 ; AddPartWeaponMissile は武器使用後、使用可能になるまで非表示にする。
 ; 例えばミサイルや爆弾などに使用。
+;
+; AddPartTurretWeapon は砲塔の回転に合わせて表示位置が変わる。それ以外はAddPartWeaponと同じ
 
 
 AddPartWeaponBay = 武器名, 位置X, 位置Y, 位置Z, 回転軸X, 回転軸Y, 回転軸Z, 回転角度 0～180
@@ -355,6 +390,29 @@ AddPartLGHatch = 位置X, 位置Y, 位置Z, 回転軸X, 回転軸Y, 回転軸Z, 
 ; AddPartLGRev      ... ギア折りたたみ時 90 → 0
 ; AddPartSlideRotLG ... ギア折りたたみ時 0  → 90
 ; AddPartLGHatch    ... ギア折りたたみ時 0  → 90 → 0
+
+TrackRollerRot = 30
+; 転輪の回転速度：0より小さい値を設定すると逆回転するはず
+
+AddTrackRoller = -1.72,  0.77,  5.04
+; 転輪を追加する、設定は座標だけで、X軸が負の値だと右側、正の値だと左側の転輪となる
+; 履帯と同じ動きをするが、履帯がなくても設定可能
+
+AddCrawlerTrack = false, 0.37, -2.09,  1.03/-3.41, 0.72/-3.57, 0.37/-3.42, -0.15/-2.55, -0.25/-2.16, -0.25/3.88, -0.13/4.21, 0.52/5.29, 0.78/5.39, 1.03/5.28, 1.10/5.04, 1.15/-3.12
+;AddCrawlerTrack = 履帯の表裏逆転,  1つの履帯の間隔, 履帯のXの位置, 履帯の回転ポイントY/Z, 履帯の回転ポイントY/Z, 履帯の回転ポイントY/Z, ...
+; 履帯の裏表が逆だったり、履帯がおかしな動きをするときは「履帯の表裏逆転」を trueまたはfalseにすると直ることがある。
+;  補足：履帯の回転ポイントを戦車を左側面からみて時計回りに設定した時はfalse、その逆の場合はtrue。
+; 転輪がなくても動作する。
+; 指定した位置はゲーム内でテストモードにすると赤い点～青い点で表示される。
+
+PartWheelRot = 40
+; タイヤの回転スピード、大きいほど速い
+
+AddPartWheel     = -1.05, 0.157, 1.965, 30
+; タイヤを追加     X座標, Y座標, Z座標, 舵角(旋回時のタイヤのY軸の最大角度)
+
+AddPartSteeringWheel =  -0.54, 0.88,  0.48,   0.0,     1.0, -1.7,  130
+; ハンドルを追加        X座標, Y座標, Z座標,  回転軸X, 軸Y, 軸Z,   最大回転角度
 
 ThrottleUpDown = 1.0
 ThrottleUpDownOnEntity = 2.0
@@ -435,11 +493,13 @@ CanRide = false
 ; true  = 機体に乗れる(デフォルト)
 ; false = 機体に乗れない
 
-BoundingBox =  当たり判定の中心X, 当たり判定の中心Y, 当たり判定の中心Z,  判定の幅, 判定の高さ
+BoundingBox =  当たり判定の中心X, 当たり判定の中心Y, 当たり判定の中心Z,  判定の幅, 判定の高さ, ダメージ倍率
 ; 機体の当たり判定を追加する
 ; 当MODの機銃やミサイルのみ当たる
 ; ブロックやエンティティにはヒットしない
 ; コンフィグまたは、ゲーム内のMOD Option からTestModeをONにすると表示できる
+; ダメージ倍率は受けるダメージの倍率で記載しない場合 1.0 になる
+; ダメージ倍率の例: 0.5 ならダメージ半分、3.0なら3倍のダメージを受ける
 
 Category = W.A
 ; 機体のカテゴリー設定。
@@ -526,17 +586,6 @@ AddPartPylon = 位置X, 位置Y, 位置Z, 回転軸X, 回転軸Y, 回転軸Z, �
 ; AddPartPylon =  6.69, 2.50, -7.18,  0,-1,0, 35 この場合のモデル名: 機体名_wing0_pylon0.obj
 ; AddPartPylon =  3.92, 2.50, -6.34,  0,-1,0, 35 この場合のモデル名: 機体名_wing0_pylon1.obj
 
-AddTrackRoller = -1.72,  0.77,  5.04
-; 転輪を追加する、設定は座標だけで、X軸が負の値だと右側、正の値だと左側の転輪となる
-; 履帯と同じ動きをするが、履帯がなくても設定可能
-
-AddCrawlerTrack = false, 0.37, -2.09,  1.03/-3.41, 0.72/-3.57, 0.37/-3.42, -0.15/-2.55, -0.25/-2.16, -0.25/3.88, -0.13/4.21, 0.52/5.29, 0.78/5.39, 1.03/5.28, 1.10/5.04, 1.15/-3.12
-;AddCrawlerTrack = 履帯の表裏逆転,  1つの履帯の間隔, 履帯のXの位置, 履帯の回転ポイントY/Z, 履帯の回転ポイントY/Z, 履帯の回転ポイントY/Z, ...
-; 履帯の裏表が逆だったり、履帯がおかしな動きをするときは「履帯の表裏逆転」を trueまたはfalseにすると直ることがある。
-;  補足：履帯の回転ポイントを戦車を左側面からみて時計回りに設定した時はfalse、その逆の場合はtrue。
-; 転輪がなくても動作する。
-; 指定した位置はゲーム内でテストモードにすると赤い点で表示される。
-
 PivotTurnThrottle = 0.0
 ; 地上で回るときの移動量
 ; 0にするとその場で周り、0より大きな値にすると回転時に移動する
@@ -545,7 +594,7 @@ PivotTurnThrottle = 0.0
 ;  信地旋回の場合 = 0より大きな値を設定する
 
 EnableBack = true
-;後退可能にする(暫定処置で今後削除される可能性有り)
+;後退可能にする
 
 VariableSweepWing = true
 SweepWingSpeed = 1.2
@@ -619,3 +668,51 @@ AddChildPart = Param1, Param2, Param3, Param4, 位置X, 位置Y, 位置Z
 ; AddChildPart	= false, false, true,  0,   1.00, 0.00, 2.00 → 機体名_part0_1.obj
 
 ; RotationPitchMax, RotationPitchMin は古い設定なので使用しないこと。
+
+
+
+;***********************************************************************************
+■車両設定ファイル tanks/abc.txt, models/tanks/abc.obj, textures/tanks/abc.png, textures/items/abc.png
+;***********************************************************************************
+
+;車両を増やすには以下の4ファイルが必要 (全て小文字であること)
+; ・tanks フォルダに車両設定ファイル
+; ・models/tanks フォルダに車両のモデル
+; ・textures/tanks フォルダに車両テクスチャファイル
+; ・textures/items フォルダにアイテムのテクスチャファイル
+
+
+DefaultFreelook = true
+; 機体の乗った直後からフリールックにするかどうかの設定
+; 主に戦車に使用する
+
+OnGroundPitchFactor = 2.0
+OnGroundRollFactor  = 1.3
+;地形によって傾く早さ
+; この値が大きいほど早く地形に合わせて傾く
+; 速度の速い車両は大きめに、遅い車両は小さめにすると良い
+; 大きすぎると画面が激しく揺れる
+; 小さすぎると地形の傾きに追従しきれずブロックにめり込む
+
+CameraRotationSpeed = 25
+; カメラの回転スピード
+; 戦車であれば砲塔の回転速度の制限に使用できる
+
+WeightType = Tank
+; Tank or Car or Unknown
+; 機体の重量タイプ
+; Tank : モブにぶつかっても自分にはダメージ無し, 破壊するブロックが多い
+; Car  : モブにぶつかると自分もダメージを受ける, 破壊するブロックが少ない
+; Tank でも Car でも無い場合の動作は未定義
+; 破壊するブロックは mcheli.cfg で設定可能
+
+WeightedCenterZ = 0.0
+; 重心Z座標設定
+; 機体が地形に合わせて傾くときの重心Z座標
+; ※あまりうまく機能しないため、使ってみて違和感があるようなら使わない方が良い
+
+SetWheelPos =  1.75,  -0.24,  4.85, 3.02, 1.44, -1.54, -2.91
+;SetWheelPos =  X座標, Y座標,  Z座標1, Z座標2, Z座標3 ...
+; 地面との接地位置を指定する。この設置地点に合わせて機体が傾く。
+; X座標のマイナス側は必要なし
+; ★ Y座標は機体にかかわらず -0.24 を設定することを強く推奨する

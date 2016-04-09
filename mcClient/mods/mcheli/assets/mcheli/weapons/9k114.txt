@@ -8,6 +8,9 @@ Sight = MissileSight
 Delay = 100
 ModeNum = 2
 Sound = missile_1_snd
+RidableOnly = true
+
+DamageFactor = tank, 2.0
 
 MaxAmmo = 8
 SuppliedNum = 2

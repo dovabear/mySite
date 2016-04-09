@@ -11,6 +11,10 @@ Delay = 7
 ReloadTime = 110
 Round = 19
 
+; Particle test
+;TrajectoryParticle = heart
+;TrajectoryParticle = fireworksSpark
+
 MaxAmmo = 19
 SuppliedNum = 19
 Item =  3, iron_ingot

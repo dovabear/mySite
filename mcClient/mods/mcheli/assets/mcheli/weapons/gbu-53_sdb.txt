@@ -12,6 +12,9 @@ Sound = bomb_snd
 ProximityFuseDist = 1
 DisableSmoke = true
 ModelBullet = sdb2
+RidableOnly = true
+
+DamageFactor = tank, 2.0
 
 MaxAmmo = 8
 SuppliedNum = 4
