@@ -8,10 +8,5 @@
 2. 按下 Raw 按鈕下載
 
 ======================MC Server Update======================
-
-4/13
-新增 littleMaidMobX
-	-	mods/littleMaidMobX-1.7.x_0.1.1.jar
-	-	extractMods/littleMaidMobX.zip
 4/12 
 更新 mcHeli v1.0.2
