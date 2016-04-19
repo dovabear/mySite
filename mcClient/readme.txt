@@ -8,7 +8,9 @@
 2. 按下 Raw 按鈕下載
 
 ======================MC Server Update======================
-
+4/18
+新增 littleMaidMobX Model
+	-	mods/littleMaidMobX-voms-Beverly-1710-v0.zip
 4/13
 新增 littleMaidMobX
 	-	mods/littleMaidMobX-1.7.x_0.1.1.jar
