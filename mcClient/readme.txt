@@ -1,13 +1,25 @@
 ======================MC Client 說明======================
 1. 執行 ModLoader 安裝 forge-1.7.10-10.13.4.1558-1.7.10-installer-win.exe
-2. mods 內檔案全部放入 %AppData%/.minecraft/mods
-3. extractMods 內檔案解壓縮後放入 %AppData%/.minecraft/mods
+2. 安裝 Mods
+	-	選擇 手動安裝 或是 懶人安裝
+
+--------手動安裝--------
+1. mods 內檔案全部放入 %AppData%/.minecraft/mods
+2. extractMods 內檔案解壓縮後放入 %AppData%/.minecraft/mods
+
+--------懶人安裝--------
+1. 刪除資料夾 %AppData%/.minecraft/mods
+2. 將 QuickStart/mods.zip 解壓縮至 %AppData%/.minecraft/
+
 
 ======================Mod 下載說明======================
 1. 點選單一檔案
 2. 按下 Raw 按鈕下載
 
 ======================MC Server Update======================
+4/22
+移除 littleMaidMobX Model
+	-	mods/littleMaidMobX-voms-Beverly-1710-v0.zip
 4/20
 新增 Mariculture (海底風景, 水力機器, 進階釣魚, 養魚, 潛水裝備)
 	-	mods/Enchiridion-1.7.X-1.2b.jar
