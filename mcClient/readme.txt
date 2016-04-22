@@ -17,6 +17,9 @@
 2. 按下 Raw 按鈕下載
 
 ======================MC Server Update======================
+4/22
+移除 littleMaidMobX Model
+	-	mods/littleMaidMobX-voms-Beverly-1710-v0.zip
 4/20
 新增 Mariculture (海底風景, 水力機器, 進階釣魚, 養魚, 潛水裝備)
 	-	mods/Enchiridion-1.7.X-1.2b.jar
