@@ -1,253 +1,151 @@
-[00:26:14] [Server thread/INFO]: invanlid lost connection: TranslatableComponent{key='disconnect.genericReason', args=[Internal Exception: java.io.IOException: 連線已被您主機上的軟體中止。], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
-[00:26:14] [Server thread/INFO]: §rinvanlid§r left the game
-[08:09:40] [User Authenticator #23/INFO]: UUID of player dtpeter2 is cce69da0-f106-4921-b046-a13e25975529
-[08:09:41] [Server thread/INFO]: dtpeter2[/111.249.111.243:12682] logged in with entity id 10211345 at (-338.6877373489551, 71.0, 261.300000011921)
-[08:09:41] [Server thread/INFO]: §rdtpeter2§r joined the game
-[08:39:00] [Server thread/INFO]: <§rGina970309§r> 老弟
-[08:39:05] [Server thread/INFO]: <§rdtpeter2§r> ?
-[08:39:18] [Server thread/INFO]: <§rGina970309§r> 昨天我問了威儒
-[08:39:25] [Server thread/INFO]: <§rdtpeter2§r> 嗯?
-[08:39:32] [Server thread/INFO]: <§rGina970309§r> 他說我關掉就斷應該是Server檔案有問題
-[08:39:37] [Server thread/INFO]: <§rdtpeter2§r> = =
-[08:40:01] [Server thread/INFO]: <§rGina970309§r> 他說他有修正版 等峰哥 下次重開在看看
-[08:40:09] [Server thread/INFO]: <§rdtpeter2§r> @@
-[08:40:15] [Server thread/INFO]: <§rdtpeter2§r> 倒是沒差
-[08:40:18] [Server thread/INFO]: <§rdtpeter2§r> 現在好好的
-[08:41:34] [Server thread/INFO]: <§rdtpeter2§r> 在想要直接跳還是說一下再跳= =
-[08:42:35] [Server thread/INFO]: <§rGina970309§r> 直接跳吧 可是你要跳去哪裡
-[08:42:43] [Server thread/INFO]: <§rdtpeter2§r> 外勞團~
-[08:42:51] [Server thread/INFO]: <§rdtpeter2§r> 他們那天天都在戰= =
-[08:42:56] [Server thread/INFO]: <§rdtpeter2§r> 打不打都行
-[08:43:13] [Server thread/INFO]: <§rGina970309§r> 你兩隻都要跳??
-[08:43:18] [Server thread/INFO]: <§rdtpeter2§r> 可能喔
-[08:43:28] [Server thread/INFO]: <§rdtpeter2§r> 但兩隻都打有點累
-[08:43:35] [Server thread/INFO]: <§rGina970309§r> 你哥也要跳嗎
-[08:43:38] [Server thread/INFO]: <§rdtpeter2§r> 可能一隻捐兵吧
-[08:43:41] [Server thread/INFO]: <§rdtpeter2§r> 我等他開阿
-[08:43:52] [Server thread/INFO]: <§rGina970309§r> 哦哦XD
-[08:44:14] [Server thread/INFO]: <§rGina970309§r> 反正我會跟你們一起走
-[08:44:19] [Server thread/INFO]: <§rdtpeter2§r> XD
-[08:44:38] [Server thread/INFO]: <§rdtpeter2§r> 雷貨太多了
-[08:44:46] [Server thread/INFO]: <§rdtpeter2§r> 真心覺得他們故意的= =
-[08:45:04] [Server thread/INFO]: <§rdtpeter2§r> 規則也說高等捐兵給低等結果只有那幾個再捐兵= =
-[08:48:57] [Server thread/INFO]: <§rdtpeter2§r> ?
-[08:49:18] [Server thread/INFO]: <§rGina970309§r> 我想說你在哪xd
-[08:51:53] [Server thread/INFO]: <§rdtpeter2§r> 缺經驗啊~
-[08:51:59] [Server thread/INFO]: <§rGina970309§r> 要腹膜?
-[08:52:04] [Server thread/INFO]: <§rdtpeter2§r> p
-[09:14:28] [Server thread/INFO]: <§rGina970309§r> 發現一個白金礦
-[09:14:42] [Server thread/INFO]: <§rdtpeter2§r> 他們不是打算大量生產= =
-[09:15:20] [Server thread/INFO]: <§rGina970309§r> 大量生產? 用什麼生
-[09:15:40] [Server thread/INFO]: <§rdtpeter2§r> 紅石礦+黃鐵礦
-[09:16:07] [Server thread/INFO]: <§rGina970309§r> 所以我遇到宏食用絲綢帶回家?
-[09:16:12] [Server thread/INFO]: <§rdtpeter2§r> p
-[09:16:18] [Server thread/INFO]: <§rGina970309§r> OK
-[09:21:27] [Server thread/INFO]: dtpeter2 lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
-[09:21:27] [Server thread/INFO]: §rdtpeter2§r left the game
-[09:24:03] [User Authenticator #24/INFO]: UUID of player dtpeter2 is cce69da0-f106-4921-b046-a13e25975529
-[09:24:04] [Server thread/INFO]: dtpeter2[/111.249.111.243:10304] logged in with entity id 10522543 at (-326.7977439213082, 71.0, 272.9487108879935)
-[09:24:04] [Server thread/INFO]: §rdtpeter2§r joined the game
-[09:24:36] [Server thread/INFO]: §rdtpeter2§r has just earned the achievement [Hard as a rock]
-[09:24:44] [Server thread/INFO]: <§rGina970309§r> 我等等可以回去跟你借電池包包嗎
-[09:24:52] [Server thread/INFO]: <§rdtpeter2§r> K
-[09:35:45] [Server thread/INFO]: <§rdtpeter2§r> 你可以拿電鑽阿
-[09:35:50] [Server thread/INFO]: <§rdtpeter2§r> 上班都懶得挖= =
-[09:36:28] [Server thread/INFO]: <§rGina970309§r> !
-[09:36:39] [Server thread/INFO]: <§rGina970309§r> 我敲了一下電鑽 結果不知道非去哪了
-[09:36:43] [Server thread/INFO]: <§rdtpeter2§r> ㄆ
-[09:37:13] [Server thread/INFO]: <§rdtpeter2§r> 看你身上有嬤
-[09:37:33] [Server thread/INFO]: <§rGina970309§r> 我身上只有我原本的
-[09:37:53] [Server thread/INFO]: <§rdtpeter2§r> 只好用調的了= =
-[09:37:55] [Server thread/INFO]: <§rGina970309§r> 我敲了一下 他撞到旁邊的土就消失了
-[09:38:10] [Server thread/INFO]: <§rdtpeter2§r> = =
-[09:38:19] [Server thread/INFO]: <§rdtpeter2§r> 在外面
-[09:38:33] [Server thread/INFO]: <§rGina970309§r> 飄上去了喔!?
-[09:38:34] [Server thread/INFO]: <§rdtpeter2§r> 給你了
-[09:38:36] [Server thread/INFO]: <§rdtpeter2§r> 恩
-[09:38:43] [Server thread/INFO]: <§rGina970309§r> 謝謝
-[09:38:44] [Server thread/INFO]: <§rdtpeter2§r> 有拿到吧
-[09:38:57] [Server thread/INFO]: <§rdtpeter2§r> WC~
-[10:01:02] [Server thread/INFO]: <§rdtpeter2§r> 還是跳到我們這邊= =?
-[10:01:13] [Server thread/INFO]: <§rGina970309§r> 蛤?
-[10:01:15] [Server thread/INFO]: <§rdtpeter2§r> 這邊只有3個台灣人
-[10:01:18] [Server thread/INFO]: <§rdtpeter2§r> COC
-[10:01:34] [Server thread/INFO]: <§rGina970309§r> 我都可以啊
-[10:01:38] [Server thread/INFO]: <§rdtpeter2§r> 但他們至少會說讓我們看得懂的英文= =
-[10:03:40] [Server thread/INFO]: <§rdtpeter2§r> 看老哥好了
-[10:03:51] [Server thread/INFO]: <§rdtpeter2§r> 他要創我就主帳號跟他
-[11:01:04] [User Authenticator #25/INFO]: UUID of player invanlid is 7ca36655-ad06-4bf3-bb37-0ec0782a16ef
-[11:01:05] [Server thread/INFO]: invanlid[/123.110.219.9:1552] logged in with entity id 10976019 at (-314.24377689603193, 71.0, 292.72371281685247)
-[11:01:05] [Server thread/INFO]: §rinvanlid§r joined the game
-[11:01:23] [Server thread/INFO]: <§rGina970309§r> Hi~
-[11:01:37] [Server thread/INFO]: <§rinvanlid§r> hi
-[11:03:34] [Server thread/INFO]: <§rinvanlid§r> 睡了?
-[11:23:18] [Server thread/WARN]: Gina970309 moved wrongly!
-[11:24:30] [Server thread/INFO]: <§rGina970309§r> 我剛剛在洞窟放隻火把 結果燒起來了
-[11:28:05] [Server thread/INFO]: <§rinvanlid§r> 載挖礦?
-[11:28:11] [Server thread/INFO]: <§rGina970309§r> 我回來了XD
-[11:28:25] [Server thread/INFO]: <§rGina970309§r> 剛剛在挖礦
-[11:32:06] [Server thread/INFO]: <§rGina970309§r> 黃鐵礦要放哪裡XD
-[11:34:00] [Server thread/INFO]: <§rinvanlid§r> give me
-[11:34:29] [Server thread/INFO]: <§rinvanlid§r> .
-[11:34:41] [Server thread/INFO]: <§rGina970309§r> 放紅石的地方我有帶紅石礦回來
-[11:34:58] [Server thread/INFO]: <§rGina970309§r> OAO 謝謝XD
-[11:45:36] [Server thread/INFO]: <§rGina970309§r> 外面鵝卵石噴出來了
-[11:57:44] [Server thread/INFO]: <§rGina970309§r> 放探的箱子有兩個白金礦
-[11:58:04] [Server thread/INFO]: <§rinvanlid§r> 你挖的?
-[11:58:11] [Server thread/INFO]: <§rGina970309§r> 對阿
-[12:01:00] [Server thread/INFO]: <§rinvanlid§r> 界個過
-[12:04:35] [Server thread/INFO]: <§rinvanlid§r> 你有電鑽?
-[12:04:40] [Server thread/INFO]: <§rGina970309§r> 有阿
-[12:04:46] [Server thread/INFO]: <§rinvanlid§r> 幫我把下面內燃打掉
-[12:05:05] [Server thread/INFO]: <§rinvanlid§r> 在外面
-[12:08:47] [Server thread/INFO]: <§rinvanlid§r> 有空可以把這拿去這
-[12:17:11] [Server thread/INFO]: <§rGina970309§r> 0.0 你說啥
-[12:17:26] [Server thread/INFO]: <§rinvanlid§r> come
-[12:18:02] [Server thread/INFO]: <§rGina970309§r> 哦哦 好XD
-[12:18:05] [Server thread/INFO]: <§rinvanlid§r> 100%+1
-[12:18:15] [Server thread/INFO]: <§rinvanlid§r> +1mb
-[12:18:26] [Server thread/INFO]: <§rinvanlid§r> 120mb 有一顆
-[12:23:32] [Server thread/INFO]: <§rGina970309§r> 我差不多該去學校了
-[12:23:41] [Server thread/INFO]: <§rGina970309§r> 晚上見
-[12:23:42] [Server thread/INFO]: <§rinvanlid§r> 恩
-[12:23:47] [Server thread/INFO]: <§rinvanlid§r> 掰 路上小音
-[12:23:52] [Server thread/INFO]: <§rinvanlid§r> 心~
-[12:23:58] [Server thread/INFO]: <§rGina970309§r> 好 :D
-[13:35:18] [Server thread/INFO]: invanlid lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
-[13:35:18] [Server thread/INFO]: §rinvanlid§r left the game
-[14:17:39] [User Authenticator #26/INFO]: UUID of player invanlid is 7ca36655-ad06-4bf3-bb37-0ec0782a16ef
-[14:17:40] [Server thread/INFO]: invanlid[/123.110.219.9:2262] logged in with entity id 12279057 at (-317.42839820081974, 71.0, 273.8791739154389)
-[14:17:40] [Server thread/INFO]: §rinvanlid§r joined the game
-[14:21:52] [Server thread/INFO]: invanlid lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
-[14:21:52] [Server thread/INFO]: §rinvanlid§r left the game
-[14:25:51] [User Authenticator #27/INFO]: UUID of player invanlid is 7ca36655-ad06-4bf3-bb37-0ec0782a16ef
-[14:25:52] [Server thread/INFO]: invanlid[/123.110.219.9:2328] logged in with entity id 12315618 at (-320.99785209012884, 71.0, 273.4978986098218)
-[14:25:52] [Server thread/INFO]: §rinvanlid§r joined the game
-[14:30:07] [Server thread/WARN]: invanlid moved wrongly!
-[14:36:24] [Server thread/WARN]: invanlid moved wrongly!
-[15:10:49] [Server thread/INFO]: <§rdtpeter2§r> = =
-[15:28:08] [Server thread/INFO]: <§rdtpeter2§r> 還是來不及捏= =
-[15:28:29] [Server thread/INFO]: <§rdtpeter2§r> 要不乾脆直接把製造石頭的放上方= =
-[15:28:35] [Server thread/INFO]: <§rdtpeter2§r> 滿了自己會停= =
-[15:29:17] [Server thread/INFO]: <§rdtpeter2§r> 除非可以把回收機加速
-[15:29:22] [Server thread/INFO]: <§rdtpeter2§r> 就能直接接上
-[15:29:44] [Server thread/INFO]: <§rinvanlid§r> 加速?
-[15:29:50] [Server thread/INFO]: <§rdtpeter2§r> 恩還要再快
-[15:29:53] [Server thread/INFO]: <§rdtpeter2§r> 但她會沒電
-[15:30:16] [Server thread/INFO]: <§rdtpeter2§r> 我去測一下
-[15:30:17] [Server thread/INFO]: dtpeter2 lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
-[15:30:17] [Server thread/INFO]: §rdtpeter2§r left the game
-[15:46:33] [User Authenticator #28/INFO]: UUID of player dtpeter2 is cce69da0-f106-4921-b046-a13e25975529
-[15:46:33] [Server thread/INFO]: dtpeter2[/111.249.111.243:1063] logged in with entity id 12703005 at (-323.9259393357534, 71.0, 273.64581200074093)
-[15:46:33] [Server thread/INFO]: §rdtpeter2§r joined the game
-[15:48:06] [Server thread/INFO]: <§rdtpeter2§r> 他這IC2一訂有問題= =
-[15:48:19] [Server thread/INFO]: <§rinvanlid§r> ?
-[15:48:41] [Server thread/INFO]: <§rdtpeter2§r> 增加電頻跟電壓都沒效果
-[15:50:01] [Server thread/INFO]: <§rinvanlid§r> 我是覺得中間不用接納儲物箱多用幾個回收機就夠了吧?
-[15:50:22] [Server thread/INFO]: <§rdtpeter2§r> 喔也是可以
-[15:50:48] [Server thread/INFO]: <§rdtpeter2§r> 那儲物箱只是想拿出來消耗而已= =
-[15:50:58] [Server thread/INFO]: <§rdtpeter2§r> 我早上弄是直接傳送
-[15:51:02] [Server thread/INFO]: <§rdtpeter2§r> 但一直狂噴= =
-[15:51:16] [Server thread/INFO]: <§rinvanlid§r> 讓他分散到會收 費料在自動彈到UU
-[15:51:22] [Server thread/INFO]: <§rdtpeter2§r> K
-[15:51:27] [Server thread/INFO]: <§rdtpeter2§r> 但需要空間阿
-[15:51:39] [Server thread/INFO]: <§rdtpeter2§r> BC漏斗真的超快= =
-[15:51:56] [Server thread/INFO]: <§rinvanlid§r> 怎樣超快
-[15:52:06] [Server thread/INFO]: <§rdtpeter2§r> 你沒測試嗎
-[15:52:17] [Server thread/INFO]: <§rdtpeter2§r> 你通通扔滿馬上就下去了
-[15:52:22] [Server thread/INFO]: <§rdtpeter2§r> 很快~
-[15:53:17] [Server thread/INFO]: <§rdtpeter2§r> 這都滿了一半了= =
-[15:57:38] [Server thread/INFO]: <§rdtpeter2§r> 還是兩邊都通?
-[15:57:46] [Server thread/INFO]: <§rdtpeter2§r> 造石頭+回收機
-[15:58:03] [Server thread/INFO]: <§rinvanlid§r> 什麼意思
-[15:58:12] [Server thread/INFO]: <§rdtpeter2§r> 這邊是原本的
-[15:58:17] [Server thread/INFO]: <§rdtpeter2§r> +回收機~
-[15:58:34] [Server thread/INFO]: <§rdtpeter2§r> 還是現在用不到石頭?
-[15:58:57] [Server thread/INFO]: <§rdtpeter2§r> 對喔他會直接生產= =
-[15:59:20] [Server thread/INFO]: <§rinvanlid§r> 我也還用部到這麼多 要燒其他東西也麻煩 還要打爆地板從漏斗拿
-[15:59:28] [Server thread/INFO]: <§rdtpeter2§r> 恩= =
-[16:03:02] [Server thread/INFO]: <§rdtpeter2§r> ...
-[16:03:14] [Server thread/INFO]: <§rdtpeter2§r> 你想讓機器消失嗎= =
-[16:03:32] [Server thread/WARN]: dtpeter2 moved wrongly!
-[16:03:57] [Server thread/INFO]: <§rinvanlid§r> 反正沒再用先收起來
-[16:04:36] [Server thread/INFO]: §rinvanlid§r has just earned the achievement [Epic Squeeze]
-[16:09:13] [Server thread/INFO]: dtpeter2 lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
-[16:09:13] [Server thread/INFO]: §rdtpeter2§r left the game
-[16:22:38] [User Authenticator #29/INFO]: UUID of player dtpeter2 is cce69da0-f106-4921-b046-a13e25975529
-[16:22:38] [Server thread/INFO]: dtpeter2[/111.249.111.243:14216] logged in with entity id 12907671 at (-335.11065041400377, 71.0, 270.2125300115625)
-[16:22:38] [Server thread/INFO]: §rdtpeter2§r joined the game
-[16:51:02] [Server thread/INFO]: [dtpeter2: Given [Robot] * 1 to dtpeter2]
-[16:56:22] [Server thread/WARN]: dtpeter2 moved wrongly!
-[16:59:03] [Server thread/INFO]: dtpeter2 lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
-[16:59:03] [Server thread/INFO]: §rdtpeter2§r left the game
-[17:01:22] [Server thread/INFO]: invanlid lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
-[17:01:22] [Server thread/INFO]: §rinvanlid§r left the game
-[18:40:43] [User Authenticator #30/INFO]: UUID of player othunderx is d68d2732-422a-478a-b27d-ba75d7b3e14a
-[18:40:44] [Server thread/INFO]: othunderx[/36.226.101.157:49826] logged in with entity id 13588139 at (262.36045551255677, 67.0, -1073.9910238483171)
-[18:40:44] [Server thread/INFO]: othunderx joined the game
-[19:23:08] [Server thread/INFO]: [othunderx: Given [Iron Ingot] * 1 to othunderx]
-[19:23:08] [Server thread/INFO]: [othunderx: Given [Iron Ingot] * 1 to othunderx]
-[19:23:15] [Server thread/INFO]: [othunderx: Given [Leather] * 1 to othunderx]
-[19:23:16] [Server thread/INFO]: [othunderx: Given [Leather] * 1 to othunderx]
-[19:23:16] [Server thread/INFO]: [othunderx: Given [Leather] * 1 to othunderx]
-[19:23:16] [Server thread/INFO]: [othunderx: Given [Leather] * 1 to othunderx]
-[19:26:56] [Server thread/INFO]: [othunderx: Given [Iron Ingot] * 1 to othunderx]
-[19:26:56] [Server thread/INFO]: [othunderx: Given [Iron Ingot] * 1 to othunderx]
-[19:26:56] [Server thread/INFO]: [othunderx: Given [Iron Ingot] * 1 to othunderx]
-[19:26:56] [Server thread/INFO]: [othunderx: Given [Iron Ingot] * 1 to othunderx]
-[19:53:16] [Server thread/WARN]: othunderx moved wrongly!
-[19:58:48] [Server thread/WARN]: othunderx moved wrongly!
-[20:24:27] [Server thread/WARN]: othunderx moved wrongly!
-[20:34:41] [Server thread/INFO]: othunderx has just earned the achievement [Energy Flow]
-[20:38:57] [Server thread/INFO]: othunderx has just earned the achievement [Suitable Power]
-[20:47:50] [Server thread/INFO]: [othunderx: Given [Tin Ingot] * 64 to othunderx]
-[21:03:24] [Server thread/INFO]: <othunderx> 你知道萃取機器在哪嗎
-[21:03:37] [Server thread/INFO]: <§rGina970309§r> 提煉?
-[21:03:41] [Server thread/INFO]: <othunderx> 對
-[21:04:25] [Server thread/INFO]: <§rGina970309§r> 嗯? 他們好像收起來了
-[21:05:06] [Server thread/WARN]: othunderx moved wrongly!
-[21:05:16] [Server thread/WARN]: Gina970309 moved wrongly!
-[21:05:36] [Server thread/WARN]: Gina970309 moved wrongly!
-[21:06:29] [Server thread/WARN]: othunderx moved wrongly!
-[21:07:20] [Server thread/INFO]: <§rGina970309§r> 提煉機應該收起來了 我們家有
-[21:07:36] [Server thread/INFO]: <othunderx> 有 我有用 不過不夠用
-[21:07:48] [Server thread/INFO]: <§rGina970309§r> 不夠用?
-[21:07:55] [Server thread/INFO]: <othunderx> 需要大量
-[21:08:03] [Server thread/INFO]: <§rGina970309§r> 你要橡膠喔
-[21:08:09] [Server thread/INFO]: <othunderx> 恩
-[21:08:10] [Server thread/INFO]: <§rGina970309§r> 可是我不知道在哪
-[21:08:19] [Server thread/INFO]: <othunderx> 你們都去哪邊 潛水
-[21:08:38] [Server thread/INFO]: <§rGina970309§r> 看到有珊瑚就跳下去
-[21:09:09] [Server thread/INFO]: <§rGina970309§r> 前提是有借道量子帽子
-[21:09:16] [Server thread/INFO]: <othunderx> 你知道黃鐵都去哪挖
-[21:09:29] [Server thread/INFO]: <othunderx> 一定要量子冒? 為了照明?
-[21:10:02] [Server thread/INFO]: <§rGina970309§r> 量子帽子可以無限水下呼吸
-[21:10:08] [Server thread/INFO]: <othunderx> OP
-[21:10:13] [Server thread/INFO]: <§rGina970309§r> 也可以夜視
-[21:10:46] [Server thread/WARN]: othunderx moved wrongly!
-[21:11:53] [Server thread/INFO]: <othunderx> 我又自己一個人在另外一邊弄起 機械的東西 -.- 早知道就搬回來用了
-[21:20:22] [Server thread/WARN]: othunderx moved wrongly!
-[21:27:10] [Server thread/INFO]: othunderx has just earned the achievement [Super Treetap]
-[22:13:13] [Server thread/WARN]: othunderx moved wrongly!
-[22:13:13] [Server thread/WARN]: othunderx moved wrongly!
-[22:18:03] [Server thread/WARN]: othunderx moved wrongly!
-[22:19:06] [User Authenticator #31/INFO]: UUID of player bossxin is 4a55e8b4-6f2d-43b6-ac8e-2132a6c42770
-[22:19:07] [Server thread/INFO]: bossxin[/123.110.207.169:3490] logged in with entity id 14418845 at (-319.10453560902386, 74.0, 261.5230544279676)
-[22:19:07] [Server thread/INFO]: §rbossxin§r joined the game
-[22:19:50] [Server thread/INFO]: <§rGina970309§r> 安
-[22:36:11] [Server thread/INFO]: othunderx lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
-[22:36:11] [Server thread/INFO]: othunderx left the game
-[23:32:42] [Server thread/INFO]: [Server] 我要更新一下mod喔
-[23:32:56] [Server thread/INFO]: [Server] 大家早點睡 XD
-[23:33:03] [Server thread/INFO]: <§rbossxin§r> 等我一下
-[23:33:09] [Server thread/INFO]: [Server] ok
-[23:34:15] [Server thread/INFO]: <§rbossxin§r> OK 晚安
-[23:34:44] [Server thread/INFO]: bossxin lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
-[23:34:44] [Server thread/INFO]: §rbossxin§r left the game
-[23:40:51] [Server thread/INFO]: Unknown command. Try /help for a list of commands
-[23:40:56] [Server thread/INFO]: [Server] Gina你呢
-[23:41:09] [Server thread/INFO]: Stopping server
-[23:41:09] [Server thread/INFO]: Saving players
-[23:41:09] [Server thread/INFO]: Saving worlds
-[23:41:09] [Server thread/INFO]: Saving chunks for level 'world_RTG'/Overworld
-[23:41:09] [Server thread/INFO]: Saving chunks for level 'world_RTG'/Nether
+[00:48:17] [Server thread/INFO]: Starting minecraft server version 1.7.10
+[00:48:30] [Server thread/INFO]: Loading properties
+[00:48:30] [Server thread/INFO]: Default game type: SURVIVAL
+[00:48:30] [Server thread/INFO]: Generating keypair
+[00:48:30] [Server thread/INFO]: Starting Minecraft server on *:25565
+[00:48:38] [Server thread/INFO]: Preparing level "world_RTG"
+[00:48:39] [Server thread/INFO]: Preparing start region for level 0
+[00:48:40] [Server thread/INFO]: Preparing spawn area: 20%
+[00:48:41] [Server thread/INFO]: Preparing spawn area: 46%
+[00:48:41] [Server thread/INFO]: Done (3.320s)! For help, type "help" or "?"
+[10:50:04] [User Authenticator #1/INFO]: UUID of player invanlid is 7ca36655-ad06-4bf3-bb37-0ec0782a16ef
+[10:50:06] [Server thread/INFO]: invanlid[/123.110.219.9:2422] logged in with entity id 367 at (-314.1176501978778, 58.75, 297.30000001192093)
+[10:50:06] [Server thread/INFO]: §rinvanlid§r joined the game
+[10:50:09] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2449ms behind, skipping 48 tick(s)
+[11:06:42] [Server thread/WARN]: invanlid moved wrongly!
+[11:14:19] [User Authenticator #2/INFO]: UUID of player Gina970309 is e718653d-8090-4c6a-88ec-da9f8aaf6274
+[11:14:20] [Server thread/INFO]: Gina970309[/36.230.123.111:11881] logged in with entity id 199921 at (-325.81896955822964, 71.0, 272.9213232478037)
+[11:14:20] [Server thread/INFO]: §rGina970309§r joined the game
+[11:15:39] [Server thread/INFO]: <§rGina970309§r> 0.0
+[11:15:54] [Server thread/INFO]: <§rGina970309§r> Hi
+[11:16:00] [Server thread/INFO]: <§rinvanlid§r> 早
+[11:17:01] [Server thread/INFO]: <§rGina970309§r> 要去工讀了XD 掰掰
+[11:17:09] [Server thread/INFO]: <§rinvanlid§r> 掰
+[11:25:56] [Server thread/INFO]: invanlid lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[11:25:56] [Server thread/INFO]: §rinvanlid§r left the game
+[12:53:34] [User Authenticator #3/INFO]: UUID of player bossxin is 4a55e8b4-6f2d-43b6-ac8e-2132a6c42770
+[12:53:35] [Server thread/INFO]: bossxin[/123.110.207.169:2065] logged in with entity id 822267 at (-334.10057474960786, 71.0, 269.56575634807945)
+[12:53:35] [Server thread/INFO]: §rbossxin§r joined the game
+[13:04:19] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2567ms behind, skipping 51 tick(s)
+[13:04:49] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 7717ms behind, skipping 154 tick(s)
+[13:05:25] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 5712ms behind, skipping 114 tick(s)
+[13:07:04] [Server thread/INFO]: Gina970309 lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[13:07:04] [Server thread/INFO]: §rGina970309§r left the game
+[13:07:04] [Server thread/INFO]: bossxin lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[13:07:04] [Server thread/INFO]: §rbossxin§r left the game
+[13:07:08] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 46915ms behind, skipping 938 tick(s)
+[13:07:09] [User Authenticator #4/INFO]: UUID of player bossxin is 4a55e8b4-6f2d-43b6-ac8e-2132a6c42770
+[13:07:17] [Server thread/INFO]: bossxin lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[13:07:17] [Server thread/INFO]: §rbossxin§r left the game
+[13:07:21] [Server thread/INFO]: com.mojang.authlib.GameProfile@225ad40a[id=<null>,name=bossxin,properties={},legacy=false] (/123.110.207.169:2235) lost connection: Disconnected
+[13:08:08] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 60210ms behind, skipping 1204 tick(s)
+[13:29:15] [User Authenticator #5/INFO]: UUID of player bossxin is 4a55e8b4-6f2d-43b6-ac8e-2132a6c42770
+[13:29:15] [Server thread/INFO]: bossxin[/123.110.207.169:2283] logged in with entity id 930016 at (19.5, 110.69999998807907, 1271.4916562324474)
+[13:29:15] [Server thread/INFO]: §rbossxin§r joined the game
+[13:34:47] [Server thread/INFO]: §rbossxin§r fell from a high place
+[13:36:09] [Server thread/WARN]: bossxin moved wrongly!
+[13:36:12] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3492ms behind, skipping 69 tick(s)
+[13:37:20] [Server thread/WARN]: bossxin moved wrongly!
+[13:37:55] [Server thread/WARN]: bossxin moved wrongly!
+[13:38:41] [Server thread/WARN]: bossxin moved wrongly!
+[13:38:46] [Server thread/WARN]: bossxin moved wrongly!
+[13:39:55] [Server thread/WARN]: bossxin moved wrongly!
+[13:40:12] [Server thread/WARN]: bossxin moved wrongly!
+[13:52:48] [Server thread/INFO]: §rbossxin§r fell from a high place
+[14:02:39] [Server thread/WARN]: bossxin moved wrongly!
+[14:03:42] [Server thread/INFO]: §rbossxin§r fell from a high place
+[14:04:16] [Server thread/WARN]: bossxin moved wrongly!
+[14:09:00] [Server thread/INFO]: §rbossxin§r fell from a high place
+[14:15:00] [Server thread/WARN]: bossxin moved wrongly!
+[14:24:41] [Server thread/WARN]: bossxin moved wrongly!
+[14:26:07] [Server thread/WARN]: bossxin moved wrongly!
+[14:27:24] [Server thread/INFO]: bossxin lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[14:27:24] [Server thread/INFO]: §rbossxin§r left the game
+[14:30:15] [User Authenticator #6/INFO]: UUID of player bossxin is 4a55e8b4-6f2d-43b6-ac8e-2132a6c42770
+[14:30:16] [Server thread/INFO]: bossxin[/123.110.207.169:2341] logged in with entity id 1523442 at (134.0114934285792, 140.0, 1525.4307170663428)
+[14:30:16] [Server thread/INFO]: §rbossxin§r joined the game
+[14:30:43] [Server thread/WARN]: bossxin moved wrongly!
+[14:31:53] [Server thread/WARN]: bossxin moved wrongly!
+[14:40:48] [Server thread/WARN]: bossxin moved wrongly!
+[14:44:51] [Server thread/WARN]: bossxin moved wrongly!
+[14:55:20] [Server thread/WARN]: bossxin moved wrongly!
+[14:57:08] [Server thread/WARN]: bossxin moved wrongly!
+[15:00:00] [Server thread/WARN]: bossxin moved wrongly!
+[15:00:43] [Server thread/INFO]: bossxin lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[15:00:43] [Server thread/INFO]: §rbossxin§r left the game
+[15:07:26] [User Authenticator #7/INFO]: UUID of player dtpeter2 is cce69da0-f106-4921-b046-a13e25975529
+[15:07:27] [Server thread/INFO]: dtpeter2[/61.228.240.8:14606] logged in with entity id 1816346 at (-322.70860381761327, 60.5, 284.70236055704896)
+[15:07:27] [Server thread/INFO]: §rdtpeter2§r joined the game
+[15:16:45] [Server thread/INFO]: dtpeter2 lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[15:16:45] [Server thread/INFO]: §rdtpeter2§r left the game
+[15:20:25] [User Authenticator #8/INFO]: UUID of player dtpeter2 is cce69da0-f106-4921-b046-a13e25975529
+[15:20:25] [Server thread/INFO]: dtpeter2[/61.228.240.8:5166] logged in with entity id 1930532 at (-312.4528797576941, 71.0, 299.78419032596105)
+[15:20:25] [Server thread/INFO]: §rdtpeter2§r joined the game
+[15:29:23] [Server thread/WARN]: dtpeter2 moved wrongly!
+[15:49:55] [User Authenticator #9/INFO]: UUID of player invanlid is 7ca36655-ad06-4bf3-bb37-0ec0782a16ef
+[15:49:57] [Server thread/INFO]: invanlid[/123.110.219.9:6028] logged in with entity id 2243388 at (-323.1788719936482, 71.0, 273.74295575889965)
+[15:49:57] [Server thread/INFO]: §rinvanlid§r joined the game
+[15:52:29] [Server thread/INFO]: invanlid lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[15:52:29] [Server thread/INFO]: §rinvanlid§r left the game
+[16:26:23] [Server thread/WARN]: dtpeter2 moved wrongly!
+[17:23:50] [User Authenticator #10/INFO]: UUID of player bossxin is 4a55e8b4-6f2d-43b6-ac8e-2132a6c42770
+[17:23:51] [Server thread/INFO]: bossxin[/123.110.207.169:4485] logged in with entity id 2714094 at (-333.6569355511068, 71.0, 260.28632811790544)
+[17:23:51] [Server thread/INFO]: §rbossxin§r joined the game
+[17:40:06] [User Authenticator #11/INFO]: UUID of player Gina970309 is e718653d-8090-4c6a-88ec-da9f8aaf6274
+[17:40:07] [Server thread/INFO]: Gina970309[/36.230.123.111:13462] logged in with entity id 2754506 at (-314.69999998807907, 71.0, 285.69999998807907)
+[17:40:07] [Server thread/INFO]: §rGina970309§r joined the game
+[17:40:27] [Server thread/INFO]: <§rGina970309§r> 安安
+[17:40:37] [Server thread/INFO]: <§rbossxin§r> hi
+[17:42:29] [Server thread/INFO]: <§rGina970309§r> 我在女僕身上放了很多東西的說
+[17:46:44] [Server thread/INFO]: <§rGina970309§r> 鋪哈 護城河外面的甘蔗都消失了XD
+[17:57:04] [Server thread/WARN]: bossxin moved wrongly!
+[17:57:26] [Server thread/WARN]: bossxin moved wrongly!
+[18:21:02] [Server thread/INFO]: bossxin lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[18:21:02] [Server thread/INFO]: §rbossxin§r left the game
+[18:21:34] [Server thread/INFO]: [Gina970309: Given [Cobblestone] * 64 to Gina970309]
+[18:21:46] [Server thread/INFO]: <§rGina970309§r> OAO又按錯
+[18:26:50] [User Authenticator #12/INFO]: UUID of player bossxin is 4a55e8b4-6f2d-43b6-ac8e-2132a6c42770
+[18:26:51] [Server thread/INFO]: bossxin[/123.110.207.169:4726] logged in with entity id 2909127 at (-334.61253431753096, 71.0, 271.942400509847)
+[18:26:51] [Server thread/INFO]: §rbossxin§r joined the game
+[18:31:11] [Server thread/WARN]: bossxin moved wrongly!
+[18:31:20] [Server thread/WARN]: bossxin moved wrongly!
+[18:34:44] [User Authenticator #13/INFO]: UUID of player invanlid is 7ca36655-ad06-4bf3-bb37-0ec0782a16ef
+[18:34:45] [Server thread/INFO]: invanlid[/123.110.219.9:6766] logged in with entity id 2927247 at (-306.4242340457869, 61.0, 284.6899001329495)
+[18:34:45] [Server thread/INFO]: §rinvanlid§r joined the game
+[18:37:05] [Server thread/INFO]: invanlid lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[18:37:05] [Server thread/INFO]: §rinvanlid§r left the game
+[18:37:57] [Server thread/INFO]: bossxin lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[18:37:57] [Server thread/INFO]: §rbossxin§r left the game
+[18:41:12] [User Authenticator #14/INFO]: UUID of player invanlid is 7ca36655-ad06-4bf3-bb37-0ec0782a16ef
+[18:41:13] [Server thread/INFO]: invanlid[/123.110.219.9:6823] logged in with entity id 2940228 at (-302.8726693873042, 61.0, 293.4879356533739)
+[18:41:13] [Server thread/INFO]: §rinvanlid§r joined the game
+[18:52:11] [User Authenticator #15/INFO]: UUID of player othunderx is d68d2732-422a-478a-b27d-ba75d7b3e14a
+[18:52:11] [Server thread/INFO]: othunderx lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[18:52:11] [Server thread/INFO]: othunderx left the game
+[18:53:43] [Server thread/INFO]: <§rGina970309§r> 0.0
+[18:53:56] [User Authenticator #16/INFO]: UUID of player othunderx is d68d2732-422a-478a-b27d-ba75d7b3e14a
+[18:53:56] [Server thread/INFO]: othunderx[/36.226.101.157:49969] logged in with entity id 2961682 at (263.54922662036387, 79.0, -1073.1651040976894)
+[18:53:56] [Server thread/INFO]: othunderx joined the game
+[19:01:54] [Server thread/INFO]: dtpeter2 lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[19:01:54] [Server thread/INFO]: §rdtpeter2§r left the game
+[19:01:54] [Server thread/INFO]: Gina970309 lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[19:01:54] [Server thread/INFO]: §rGina970309§r left the game
+[19:01:54] [Server thread/INFO]: invanlid lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[19:01:54] [Server thread/INFO]: §rinvanlid§r left the game
+[19:01:54] [Server thread/INFO]: othunderx lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[19:01:54] [Server thread/INFO]: othunderx left the game
+[19:01:54] [Server thread/INFO]: /36.226.101.157:50050 lost connection: Disconnected
+[19:01:54] [Server thread/INFO]: /123.110.219.9:6927 lost connection: Disconnected
+[19:01:54] [Server thread/INFO]: /123.110.219.9:6930 lost connection: Disconnected
+[19:04:23] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 627005ms behind, skipping 12540 tick(s)
+[19:07:54] [Server thread/INFO]: /123.110.219.9:7034 lost connection: Disconnected
+[19:08:43] [Server thread/INFO]: /36.226.101.157:50546 lost connection: Disconnected
+[19:09:34] [Server thread/INFO]: com.mojang.authlib.GameProfile@3305f2ba[id=<null>,name=othunderx,properties={},legacy=false] (/36.226.101.157:50558) lost connection: Disconnected
+[19:27:08] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 1364804ms behind, skipping 27296 tick(s)
+[19:27:12] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2252ms behind, skipping 45 tick(s)
+[19:27:33] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 4585ms behind, skipping 91 tick(s)
+[20:09:40] [Server thread/INFO]: com.mojang.authlib.GameProfile@42d59bed[id=<null>,name=Nievor,properties={},legacy=false] (/192.168.1.1:12978) lost connection: Disconnected
+[20:09:40] [Server thread/INFO]: com.mojang.authlib.GameProfile@18685af0[id=<null>,name=Gina970309,properties={},legacy=false] (/36.230.123.111:14514) lost connection: Disconnected
+[20:09:40] [Server thread/INFO]: /36.230.123.111:14519 lost connection: Disconnected
+[20:10:12] [Server thread/INFO]: com.mojang.authlib.GameProfile@4bc0f7a7[id=<null>,name=Nievor,properties={},legacy=false] (/192.168.1.1:12980) lost connection: Disconnected
+[20:10:12] [Server thread/INFO]: com.mojang.authlib.GameProfile@607180bc[id=<null>,name=Gina970309,properties={},legacy=false] (/36.230.123.111:14525) lost connection: Disconnected
